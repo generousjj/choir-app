@@ -1,0 +1,119 @@
+{
+ "songs": [
+  {
+   "id": "first_noel",
+   "title": "The First Noel",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Don Neufeld (Kensington Choralworks, 2006)",
+   "file": "songs/candlelight/first_noel/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "candlelight_carol",
+   "title": "Candlelight Carol",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "John Rutter",
+   "file": "songs/candlelight/candlelight_carol/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "he_is_born",
+   "title": "He Is Born (Il Est Né)",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Roger (Robert) Wagner",
+   "file": "songs/candlelight/he_is_born/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy.",
+   "lexicon": {
+    "il": "IY1 L",
+    "est": "EH1",
+    "ne": "N EY1",
+    "le": "L AH0",
+    "divin": "D IY0 V IY1 N",
+    "enfant": "AA0 F AA1 N",
+    "jouez": "ZH UW0 EY1",
+    "hautbois": "OW0 B W AA1",
+    "resonnez": "R EY0 Z AO0 N EY1",
+    "musettes": "M UW0 Z EH1 T AH0",
+    "chantons": "SH AA0 T AO1 N",
+    "tous": "T UW1",
+    "son": "S AO1 N",
+    "avenement": "AA0 V EH1 N AH0 M AA1 N"
+   }
+  },
+  {
+   "id": "candlelight_processional",
+   "title": "Candlelight Processional",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "Disneyland Candlelight (Vocal edition, REV 09/1/23)",
+   "file": "songs/candlelight/candlelight_processional/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "sing_praise",
+   "title": "Sing Praise To Him Our Lord",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "James Christensen (SATB divisi; as performed at Disneyland and Walt Disney World)",
+   "file": "songs/candlelight/sing_praise/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "angels",
+   "title": "Angels We Have Heard On High",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Jack Eskew and Bruce Healey",
+   "file": "songs/candlelight/angels/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "what_child",
+   "title": "What Child Is This? (Duet Version)",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Whitcomb rev. Healey",
+   "file": "songs/candlelight/what_child/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "we_three_kings",
+   "title": "We Three Kings",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Jack Eskew & Bruce Healey",
+   "file": "songs/candlelight/we_three_kings/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "joy_to_the_world",
+   "title": "Joy To The World",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "arr. Peter Knight, adapted by Bob Krogstad",
+   "file": "songs/candlelight/joy_to_the_world/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "silent_night",
+   "title": "Silent Night",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "Josef Mohr, Franz X. Gruber; arr. Bruce Healey",
+   "file": "songs/candlelight/silent_night/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "sing_noel",
+   "title": "Sing Noël",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "Brent Pierce (Walton W2989, 1975)",
+   "file": "songs/candlelight/sing_noel/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  }
+ ]
+}

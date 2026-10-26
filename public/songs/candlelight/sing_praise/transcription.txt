@@ -1,0 +1,32 @@
+title: Sing Praise To Him Our Lord
+composer: James Christensen (SATB divisi; as performed at Disneyland and Walt Disney World)
+part: Bass
+spelling: page
+key: 0
+time: 4/4
+tempo: 140
+text: Majestic
+# Separate SATB octavo, not part of the processional. Pages: B-001 right half (m.1-10, low resolution), B-002 (m.11-20).
+# Bass staff (bass clef). Divisi written lower+upper; the app offers upper = Baritone, lower = Bass.
+1: r/1
+2: r/4 D3/4:Sing A3/4:praise D4/4:to          # unison with tenors; mark like a natural/flat by the D4 = pencil? (read as D natural)
+3: Bb3+D4/1:Him
+4: D4/1:Our
+5: D4/1~:Lord
+6: D4/4 D3/4:He A3/4:is D4/4:the               # 'is'/'the' hard to read on B-001; taken from the identical m.12 on B-002
+7: Bb3+D4/2.:King Bb3+D4/4:who's              # pencil "NB" here
+8: C4/4.:born G3/8:to F3/4:us C4/4:this
+9: D4/2:day, D3/4.:King D3/8:of
+10: Bb2+F3/4.:Kings Bb2+F3/8:and G2+E3/4:Lord G2+E3/4:of
+11: A2+F#3/1~:Lords.
+12: A2+F#3/4 D3/4:He A3/4:is D4/4:the
+13: Bb3+D4/1:King
+14: D4/1:of
+15: D4/1~:Kings.
+16: D4/4 A3/4:Sing D4/4:praise C4/4:to
+text: rit.
+17: Bb3/2:Him A3/2                              # pencil "NB"
+18: G3/2:Our F3/4 E3/4                          # pencil: singer writes "ow - er" (two syllables) over G3 / F3-E3
+text: molto rit.
+19: D3+A3/1~:Lord.                              # pencil arrow points at the LOWER note (D3)
+20: D3+A3/1!

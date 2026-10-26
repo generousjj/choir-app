@@ -1,0 +1,133 @@
+title: Sing Noël
+composer: Brent Pierce (Walton W2989, 1975)
+part: Soprano
+key: 0
+time: 6/8
+tempo: 127.5
+text: dotted quarter = 85
+# p.2: instrumental intro m.1-8
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+# p.3
+9: C5/8:Come C5/16:spread C5/16:the C5/16:word, C5/16:a Bb4/8:Sav- C5/8:-ior D5/8:is
+10: C5/8:born. r/8 r/8 r/4.
+11: C5/8:Come C5/16:spread C5/16:the C5/16:word, C5/16:a Bb4/8:Sav- C5/8:-ior D5/8:is
+12: C5/8:born. r/8 r/8 r/4.
+# p.4
+13: r/4. r/8 C5/4:Sing
+14: D5/8:no- Bb4/4 C5/4.:-ël,
+15: r/8 Eb5/4:sing C5/8:no- Bb4/4:-ël,
+16: C5/4.:sing, D5/4:sing D5/8:no-
+17: E5/4:-ël, E5/8:sing D5/8:no- F5/4:-ël,
+18: E5/4:sing, E5/8:sing E5/8:no- G5/4:-ël,
+# p.5
+19: E5/4:sing, E5/8:sing D5/8:no- F5/4
+time: 3/4
+20: G5/2.~:-ël.
+21: G5/8 r/8 r/4 r/4
+22: G4/8:Bring D5/16:Him C5/16 D5/8:gifts G5/8:of F5/16:frank- E5/16:-in- D5/16:-cense C5/16:and
+23: D5/4:myrrh. E5/4:We'll F5/4:bring,
+# p.6
+24: C5/8:we'll D5/8 E5/16:bring D5/16 E5/8:gifts. F5/16:Bring E5/16:Him D5/16 C5/16
+25: D5/2.:gifts
+26: F5/2.
+time: 6/8
+27: F5/2.:and
+28: G5/2.~:gold.
+29: G5/2.
+30: r/2.
+31: r/2.
+# p.7  Poco meno mosso. Repeat goes back to m.27: 27-35 twice (confirmed by singer).
+# Bass sings m.35 only on the 2nd time.
+32: A4/4.~:We've A4/4 E5/8:heard
+33: D5/4:tell C5/8:a Bb4/8d:Sav- D5/8d:-ior
+34: A4/4:born G4/8:in Eb4/8d:Beth- Gb4/8d:-le-
+35: D4/2.:-hem.
+27: F5/2.:and
+28: G5/2.~:gold.
+29: G5/2.
+30: r/2.
+31: r/2.
+32: A4/4.~:We've A4/4 E5/8:heard
+33: D5/4:tell C5/8:a Bb4/8d:Sav- D5/8d:-ior
+34: A4/4:born G4/8:in Eb4/8d:Beth- Gb4/8d:-le-
+35: D4/2.:-hem.
+36: r/2.
+37: D5/8:Bring D5/16:Him E5/16 F#5/8 E5/8:gifts G5/8 F#5/8:and
+38: D5/2.:gold.
+# p.8
+39: D5/8:Bring D5/16:Him E5/16 F#5/8 E5/8:gifts G5/8 F#5/8:and
+40: D5/4.:gold. E5/4.
+41: D5+F5/4.:No- E5+G5/4.:-ël,
+42: D5/4.:sing E5/4.
+43: D5+F5/4.:no- E5+G5/4.
+44: F#5+A5/2.~:-ël.
+45: F#5+A5/2.~
+46: F#5+A5/8 r/8 r/8 r/4.
+# p.9  molto rit. (m.47)
+text: molto rit.
+tempo: 105
+47: r/2.
+48: r/2.
+49: A4/4.~:He A4/4 E5/8:has
+50: D5/4:come C5/8:on Bb4/8d:earth D5/8d:this
+51: A4/4:day G4/8:to Eb4/8d:save Gb4/8d:man-
+52: D4/2.~:kind.
+# p.10
+53: D4/2.~
+54: D4/8 r/8 r/8 r/4.
+55: r/2.
+text: A tempo
+tempo: 127.5
+56: C5/8:Come C5/16:spread C5/16:the C5/16:word, C5/16:a Bb4/8:Sav- C5/8:-ior D5/8:is
+57: C5/8:born. r/8 r/8 r/4.
+# p.11
+58: C5/8:Come C5/16:spread C5/16:the C5/16:word, C5/16:a Bb4/8:Sav- C5/8:-ior D5/8:is
+59: C5/8:born. r/8 r/8 r/4.
+60: E5/4:Sing, E5/8:sing D5/8:no- F5/4:-ël,
+61: E5/4:sing, E5/8:sing D5/8:no- F5/4:-ël,
+62: E5/4:sing, E5/8:sing D5/8:no- F5/4:-ël,
+# p.12
+63: E5/4:sing, E5/8:sing D5/8:no- F5/4:-ël,
+64: E5/4:sing, E5/8:sing D5/8:no- F5/4:-ël,
+65: E5/4:sing, E5/8:sing D5/8:no- F5/4:-ël!,
+66: C5+G5/4.:sing. r/4.
+67: D5/8.:Sing D5/16:no- D5/8:-ël, C5/8.:sing D5/16 Eb5/8:no-
+# p.13
+68: D5/8d:-ël, Eb5/8d:sing F5/8d:no- Eb5/8d
+69: D5/2.:-ël,
+70: F5/2.:sing
+71: D5/4.:no- C5/4.:-ël,
+72: D5/8.:sing D5/16:no- C5/8:-ël, r/4.
+73: D5/8.:sing D5/16:no- C5/8:-ël, r/4.
+# p.14
+74: D5/8.:sing D5/16:no- E5/8:-ël, F5/8:sing E5/8 C5/8:no-
+75: D5/2.~:-ël,
+76: D5/2.
+77: D5/4.:sing E5/4.:no-
+78: F5/8d:-ël, E5/8d:no- D5/8d:-ël, Db5/8d:no-
+79: Eb5/2.~:-ël,
+# p.15
+80: Eb5/4. Eb5+F5/4.:no-
+81: Eb5+G5/2.~:-ël.
+82: Eb5+G5/2.~
+83: Eb5+G5/8 r/8 r/8 r/4.
+84: r/2.
+85: r/2.
+86: r/4. Bb4/4.:Sing
+87: Bb4+Eb5/4. C5+F5/4.:no-
+# p.16  final chord, basses divisi. Baritones (upper) end on B3, the space above the staff (confirmed).
+# m.88: flat then natural before the upper note (Bb3 rising to B3) - CHECK
+88: F5+Ab5/4. G5+Bb5/4.:-ël.
+89: G5+B5/2.~
+90: G5+B5/2.~
+91: G5+B5/2.~
+92: G5+B5/8 r/8 r/8 r/4.
+93: r/2.
+94: r/2.

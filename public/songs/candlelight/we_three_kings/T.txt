@@ -1,0 +1,144 @@
+title: We Three Kings
+composer: arr. Jack Eskew & Bruce Healey
+part: Tenor
+key: -2                 # G minor
+time: 3/8
+tempo: 90               # printed: dotted quarter = 60, "In One"
+text: In One
+spelling: page
+1: r/4.
+2: r/4.
+3: r/4.
+4: r/4.
+5: D4/4:We C4/8:three
+6: Bb3/4:kings G3/8:of
+7: A3/8:or- Bb3/8:-i- A3/8:-ent
+8: G3/4.:are,
+9: D4/4:Bear- C4/8:-ing
+10: Bb3/4:gifts G3/8:we
+11: A3/8:tra- Bb3/8:-verse A3/8:a-
+12: G3/4.:-far
+13: Bb3/4:Field Bb3/8:and
+14: C4/4:foun- C4/8:-tain
+15: D4/4:moor D4/8:and
+16: F4/8:moun- Eb4/8 D4/8:-tain
+17: C4/8:Fol- D4/8:-low- C4/8:-ing
+18: Bb3/4:yon- A3/8:-der
+19: C4/8:Fol- D4/8:-low- C4/8:-ing
+20: Bb3/4:yon- A3/8:-der
+21: G3/4.~:star
+22: G3/8 r/8 r/8
+23: A3/4.:Oh
+24: Eb4/4.
+25: D4/4:Star D4/8:of
+26: D4/4:won- Bb3/8:-der
+27: Eb4/4:star Bb3/8:of
+28: D4/4.:nite
+29: D4/4:Star D4/8:with
+30: D4/4:roy- Bb3/8:-al
+31: Eb4/4:beau- Bb3/8:-ty
+32: D4/4.:bright
+33: D4/4:West- D4/8:-ward
+34: C4/4:lead- D4/8:-ing
+35: Eb4/4:still D4/8:pro-
+36: C4/4:-ceed- D4/8:-ing
+37: Bb3/4:Guide Bb3/8:us
+38: Bb3/4:to Bb3/8:thy
+39: Bb3/4:per- Bb3/8:-fect
+40: Bb3/4.~:light
+41: Bb3/4.~
+42: Bb3/4.~
+43: Bb3/4.
+44: r/4.
+45: r/4.
+46: r/4.
+47: r/4.
+48: r/4.
+49: r/4.
+50: r/4.
+51: r/4.
+52: r/4.
+53: r/4.
+54: r/4.
+55: r/4.
+key: -5                 # B-flat minor from m56
+text: mp
+56: F4/4:Born Eb4/8:a
+57: Db4/4:king Bb3/8:on
+58: C4/8:Beth- Db4/8:-le- C4/8:-hem's
+59: Bb3/4.:plain
+60: F4/4:Gifts Eb4/8:we
+61: Db4/4:bring Bb3/8:to
+62: C4/8:crown Db4/8:him C4/8:a-
+63: Bb3/4.:-gain
+64: Db4/4:King Db4/8:for-
+65: Eb4/4:-e- Eb4/8:-ver
+66: F4/4:ceas- F4/8:-ing
+67: F4/8:ne- Eb4/8 Db4/8:-ver
+68: Eb4/8:O- F4/8:-ver Eb4/8:us
+69: Db4/4:all C4/8:to
+70: Bb3/4.~:reign
+71: Bb3/4.~
+72: Bb3/4.~
+73: Bb3/4.
+74: r/4.
+75: r/4.
+76: r/4.
+77: r/4.
+key: -2                 # back to 2 flats (B-flat major refrain)
+text: f
+78: D4/4:Star D4/8:of
+79: D4/4:won- Bb3/8:-der
+80: Eb4/4:star Bb3/8:of
+81: D4/4.:nite
+82: D4/4:Star D4/8:with
+83: D4/4:roy- Bb3/8:-al
+84: Eb4/4:beau- Bb3/8:-ty
+85: D4/4.:bright
+86: D4/4:West- D4/8:-ward
+87: C4/4:lead- D4/8:-ing
+88: Eb4/4:still D4/8:pro-
+89: C4/4:-ceed- D4/8:-ing
+90: Bb3/4:Guide Bb3/8:us
+91: Bb3/4:to Bb3/8:thy
+92: Bb3/4:per- Bb3/8:-fect
+93: Bb3/4.~:light
+94: Bb3/4.~
+95: Bb3/4.~
+96: Bb3/4.
+97: r/4.
+98: r/4.
+99: r/4.
+100: r/4.
+text: mp
+5a: D4/4:We C4/8:three
+6a: Bb3/4:kings G3/8:of
+7a: A3/8:or- Bb3/8:-i- A3/8:-ent
+8a: G3/4.:are,
+9a: D4/4:Bear- C4/8:-ing
+10a: Bb3/4:gifts G3/8:we
+11a: A3/8:tra- Bb3/8:-verse A3/8:a-
+12a: G3/4.:-far
+13a: Bb3/4:Field Bb3/8:and
+14a: C4/4:foun- C4/8:-tain
+15a: D4/4:moor D4/8:and
+16a: F4/8:moun- Eb4/8 D4/8:-tain
+17a: C4/8:Fol- D4/8:-low- C4/8:-ing
+18a: Bb3/4:yon- A3/8:-der
+19a: C4/8:Fol- D4/8:-low- C4/8:-ing
+20a: Bb3/4:yon- A3/8:-der
+21a: G3/4.~:star
+22a: G3/8 r/8 r/8
+text: Rubato
+101: Eb4/8:Fol- D4/8:-low- C4/8:-ing
+102: C4/8:Fol- Bb3/8:-low- C4/8:-ing
+103: D4/4.:yon-
+104: C4/4.:-der
+105: D4/4.~:star
+106: D4/4.~
+107: D4/4.~
+108: D4/4.~
+text: Ritard
+109: D4/4.~
+110: D4/4.~
+111: D4/4.!

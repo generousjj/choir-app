@@ -1,0 +1,55 @@
+title: He Is Born (Il Est Né)
+composer: arr. Roger (Robert) Wagner
+part: Soprano
+key: -4
+time: 4/4
+tempo: 112              # no metronome mark printed; "Joyfully" -> 112 chosen
+spelling: page
+# Mm. 1-8 (optional instrumental intro) and 9-32 (pencil X) not performed.
+# m.37-38 restored as rests: the singer confirmed the long pause before "Bow in homage".
+# PASS 1 - verse in English (p.3 marked "EN legato" / "EN")
+33: C5/4:He Db5/4:was Eb5/4:born Db5/8:in C5/8:a
+34: Db5/4:sta- Eb5/4:-ble Eb5/2:bare,
+text: legato
+35: r/1
+36: r/1
+# mm. 37-38: women sing "He was born in a stable bare" (same music as 33-34; tenors and basses rest)
+37: C5/4:He Db5/4:was Eb5/4:born Db5/8:in C5/8:a
+38: Db5/4:sta- Eb5/4:-ble Eb5/2:bare.
+39: r/1
+text: rit.
+40: r/1
+# C (first time) - FRENCH (pencil "C x2: FR then (prev pg then) EN"; phonetic French pencilled under bass)
+text: a tempo
+41: Eb4/4:Il Ab4/4:est Ab4/4:né, C5/8:le Ab4/8:di-
+42: Eb4/4:-vin Ab4/4:en- Ab4/2:-fant,
+43: Ab4/4:Jou- Ab4/8:-ez Bb4/8:haut- C5/4:-bois, Db5/8:ré- C5/8:-son-
+44: Bb4/4:-nez Ab4/4:mu- Bb4/4:-set- Eb4/4:-tes.
+45: Eb4/4:Il Ab4/4:est Ab4/4:né, C5/8:le Ab4/8:di-
+46: Eb4/4:-vin Ab4/4:en- Ab4/2:-fant,
+text: f rit.
+47: Ab4/4:Chan- Bb4/4:-tons C5/4:tous Db5/8:son C5/8:a-
+48: Bb4/4:-vè- Eb5/4:-ne- Ab4/2!:-ment.
+# back to m.33 (pencil "-> (circle) 33" at foot of p.4) - PASS 2, verse again in English
+text: a tempo
+33: C5/4:He Db5/4:was Eb5/4:born Db5/8:in C5/8:a
+34: Db5/4:sta- Eb5/4:-ble Eb5/2:bare,
+text: legato
+35: r/1
+36: r/1
+37: C5/4:He Db5/4:was Eb5/4:born Db5/8:in C5/8:a
+38: Db5/4:sta- Eb5/4:-ble Eb5/2:bare.
+39: r/1
+text: rit.
+40: r/1
+# C (second time) - ENGLISH
+text: a tempo
+41: Eb4/4:Now Ab4/4:is Ab4/4:born C5/8:the Ab4/8:Di-
+42: Eb4/4:-vine Ab4/4:Christ Ab4/2:Child.
+43: Ab4/4:Play Ab4/8:the Bb4/8:mu- C5/4:-sette, Db5/8:play C5/8:the
+44: Bb4/4:tune- Ab4/4:-ful Bb4/4:o- Eb4/4:-boes.
+45: Eb4/4:Now Ab4/4:is Ab4/4:born C5/8:the Ab4/8:Di-
+46: Eb4/4:-vine Ab4/4:Christ Ab4/2:Child.
+text: f rit.
+47: Ab4/4:Let Bb4/4:all C5/4:sing Db5/8:and C5/8:re-
+48: Bb4/4:-joice Eb5/4:this Ab4/2!:day!

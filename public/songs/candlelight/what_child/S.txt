@@ -1,0 +1,52 @@
+title: What Child Is This? (Duet Version)
+composer: arr. Whitcomb rev. Healey
+part: Soprano
+key: 1
+time: 6/8
+tempo: 72               # no metronome mark printed; chosen (dotted quarter = 48)
+spelling: page
+# Pages: B-008 right page (p.1, m1-12), B-009 left (p.2, m13-30) and right (p.3, m31-42).
+# SA staff: soprano = upper / up-stem voice; S divisi written as chords (m35-36, m39-40).
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: G4/2.:lu
+8: F4/2.:lu
+9: E4/4.:lu D#4/4.:lu
+10: E4/4.:lu E4/8:oh G4/8 B4/8
+11: D5/4.:This, D5/8.:this C#5/16 B4/8:is
+12: A4/4:Christ F4/8:the D4/8.:King E4/16 F4/8:whom
+13: G4/4:shep- E4/8:-herds E4/8.:guard D#4/16 E4/8:and
+14: F4/4:an- D#4/8:-gels B3/4.:sing.
+15: D5/4.:Haste, D5/8.:haste C#5/16 B4/8:to
+16: A4/4:bring F4/8:him D#4/8.:laud E4/16 F4/8:the
+17: G4/8.:babe F4/16 E4/8:the D#4/8.:Son C#4/16 D4/8:of
+18: E4/4.:Ma- E4/4.:-ry.
+key: -4
+19: r/2.
+20: r/2.
+21: r/2.
+22: r/2.
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/4. r/8 r/8 F4/8:So
+27: A4/4:bring B4/8:Him C5/8.:in- D5/16 C5/8:-cense,
+28: B4/4:gold, G4/8:and E4/8.:myrrh, F4/16 G4/8:ooh
+29: A4/4. B4/4.
+30: C5/4. G4/4 F4/8:The
+31: A4/4:King B4/8:of C5/8.:kings D5/16 C5/8:sal-
+32: B4/4:-va- G4/8:-tion E4/8.:brings F4/16 G4/8:ooh
+33: A4/4. G4/4.
+34: F4/4. F4/4.
+35: C5+E5/4.:Raise, C5+E5/8.:raise B4+Dn5/16 A4+C5/8:the
+36: G4+B4/4:song G4/8:on E4/8.:high F4/16 G4/8:ooh
+37: A4/4. B4/4.
+38: G4/4. C5/4.
+39: C5+E5/4.:Joy, C5+E5/8.:joy B4+Dn5/16 A4+C5/8:for
+40: G4+B4/4:Christ G4/8:is E4/8.:born F4/16 G4/8:the
+41: A4/8.:Babe, G4/16 F4/8:the En4/8:Son Dn4/8 E4/8:of
+42: F4/4.:Ma- F4/4.!:-ry.

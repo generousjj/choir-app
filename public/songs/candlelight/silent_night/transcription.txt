@@ -1,0 +1,88 @@
+title: Silent Night
+composer: Josef Mohr, Franz X. Gruber; arr. Bruce Healey
+part: Bass
+key: 2
+time: 3/4
+tempo: 96
+text: Peacefully
+spelling: page
+# mm. 1-29: Solo Tenor sings verse 1 in Spanish ("Noche de paz"); choir tacet.
+# mm. 30-34: piano interlude ("Soloist invites the audience to sing along in English").
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+9: r/2.
+10: r/2.
+11: r/2.
+12: r/2.
+13: r/2.
+14: r/2.
+15: r/2.
+16: r/2.
+17: r/2.
+18: r/2.
+19: r/2.
+20: r/2.
+21: r/2.
+22: r/2.
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/2.
+27: r/2.
+28: r/2.
+29: r/2.
+30: r/2.
+31: r/2.
+32: r/2.
+33: r/2.
+34: r/2.
+key: 3
+text: mp
+# mm. 35-58: T/B in unison on one line (melody an octave below S/A). Verse 1, English.
+35: E3/4.:Si- F#3/8 E3/4:-lent
+36: C#3/2.:Night,
+37: E3/4.:ho- F#3/8 E3/4:-ly
+38: C#3/2.:night,
+39: B3/2:All B3/4:is
+40: G#3/2.:calm,
+41: A3/2:all A3/4:is
+42: E3/2.:bright
+43: F#3/2:Round F#3/4:yon
+44: A3/4.:vir- G#3/8 F#3/4:-gin
+45: E3/4.:mo- F#3/8:-ther E3/4:and
+46: C#3/2.:Child.
+47: F#3/2:Ho- F#3/4:-ly
+48: A3/4.:In- G#3/8:-fant F#3/4:so
+49: E3/4.:ten- F#3/8:-der E3/4:and
+50: C#3/2.:mild,
+51: B3/2:Sleep B3/4:in
+52: D4/4.:hea- B3/8:-ven- G#3/4:-ly
+53: A3/2.:peace,
+54: C#4/2.:-
+55: A3/4:Sleep E3/4:- C#3/4:in
+56: E3/4.:hea- D3/8:-ven- B2/4:-ly
+57: A2/2.~:peace.
+58: A2/2.
+59: r/2.
+60: r/2.
+key: -2
+text: mf lightly
+# mm. 61-70: verse 2 in English for the choir (T/B unison line, harmony under the S/A melody);
+# the Solo sings Spanish verse 2 ("Noche de paz") above.
+61: D4/4.:Si- Eb4/8 D4/4:-lent
+62: Bb3/2.:night,
+63: D4/4.:ho- Eb4/8 D4/4:-ly
+64: Bb3/2.:night,
+65: Eb4/2:Shep- Eb4/4:-herds
+66: C4/2.:quake
+67: D4/2:at D4/4:the
+68: Bb3/2.:sight;
+69: Eb3/2:Glo- Eb4/4:-ries
+70: Eb4/2:stream Eb4/4:from
+# Score photos end here (page 5, m. 70). Page 6 onward is missing from the photo set.

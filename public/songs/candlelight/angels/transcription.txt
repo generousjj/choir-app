@@ -1,0 +1,110 @@
+title: Angels We Have Heard On High
+composer: arr. Jack Eskew and Bruce Healey
+part: Bass
+key: 3
+time: 4/4
+tempo: 144              # printed: half note = 72
+spelling: page
+# p.1 (B-003). TB share a staff: stems down = bass.
+1: r/1                  # piano intro
+2: C4/8:Glo- D4/8 C4/8 B3/8 A3/2
+3: B3/8 C4/8 B3/8 A3/8 G3/2~
+4: G3/8 B3/8 A3/8 G3/8 F3/2
+5: G3/8 A3/8 B3/8 G3/8:-ri- G3/2:-a
+# p.2 (B-004 left, poor photo)
+6: C3/4:in E3/4:ex- A3/4:-cel- D3/4:-sis
+7: E3/2:De- E3/2:-o!
+8: r/8 C4/8:Glo- D4/8 E4/8 A#3/2~   # read from the photo (same figure as m.54-57); was copied from m.62
+9: A#3/8 B3/8 C4/8 D4/8 G3/2~
+10: G3/8 A3/8 B3/8 C4/8 F3/2
+11: G3/8 A3/8 B3/8 E3/8:-ri- E3/2:-a   # pencil circle around the E3 "ri-a"
+12: C3/4:in E3/4:ex- A3/4:-cel- D3/4:-sis   # = m66 (clearer photo)
+13: E3/2:De- E3/2:-o!
+14: A3/1~:O!            # TB unison whole, tied
+15: A3/1
+16: r/1                 # hand bells
+17: r/1
+17a: r/1
+17b: r/1
+# p.3: key F, women's verse, men tacet
+key: -1
+18: r/1
+19: r/1
+20: r/1
+21: r/1
+22: r/1
+23: r/1
+24: r/1
+25: r/1
+26: C4/2:Glo- D4/8 C4/8 B3/8 A3/8     # TB unison line
+27: B3/2 C4/8 B3/8 A3/8 G3/8
+28: A3/2 B3/8 A3/8 G3/8 F3/8
+29: G3/4. C3/8:-ri- C3/2:-a
+# p.4 (B-005 left)
+30: A2/4:in C3/4:ex- F3/4:-cel- B2/4:-sis
+31: C3/2:De- C3/2:-o!
+32: C4/2:Glo- D4/8 C4/8 B3/8 A3/8
+33: B3/2 C4/8 B3/8 A3/8 G3/8
+34: A3/2 B3/8 A3/8 G3/8 F3/8
+35: G3/4. C3/8:-ri- C3/2:-a
+36: A2/4:in C3/4:ex- F3/4:-cel- B2/4:-sis
+37: C3/2:De- C3/2:-o!
+38: F3/1~:O!            # TB unison whole, tied
+39: F3/1
+39a: r/1
+39b: r/1
+# p.5 (B-005 right): key Ab, "Men" staff sings the verse melody
+key: -4
+40: C4/4:Shep- C4/4:-herds C4/4:why E4/4:this
+41: E4/4.:jub- D4/8:-i- C4/2:-lee
+42: D4/4:Why B3/4:your C4/4:joy- E4/4:-ful
+43: C4/4.:strains B3/8:pro- A3/2:-long
+44: C4/4:What C4/4:the C4/4:glad- E4/4:-some
+45: E4/4.:ti- D4/8:-dings C4/2:be
+46: D4/4:Which B3/4:in- C4/4:-spire E4/4:your
+47: D4/8:heav'n- C4/8 B3/4:-ly A3/2:song
+48: C4/8:Glo- D4/8 C4/8 B3/8 A3/2
+49: B3/8 C4/8 B3/8 A3/8 G3/2~
+50: G3/8 B3/8 A3/8 G3/8 F3/2
+51: G3/4. G3/8:-ri- G3/2:-a
+# p.6 (B-006)
+52: A3/4:in G3/4:ex- F3/4:-cel- D3/4:-sis   # beat 1 TB unison Ab3
+53: E3/2:De- E3/2:-o!
+54: r/8 C4/8:Glo- D4/8 E4/8 An3/2~
+55: An3/8 B3/8 C4/8 D4/8 G3/2~
+56: G3/8 A3/8 B3/8 C4/8 F3/2
+57: G3/4. E3/8:-ri- E3/2:-a
+58: C3/4:in G3/4:ex- A3/4:-cel- D3/4:-sis
+59: E3/2:De- E3/2
+text: poco allargando
+60: A3/2:-o! r/2
+61: r/1
+# p.7 (B-007): key A
+key: 3
+tempo: 144
+text: A Tempo
+62: E4/8:Glo- D4/8 C4/8 B3/8 A3/2
+63: B3/8 C4/8 B3/8 A3/8 G3/2~
+64: G3/8 B3/8 A3/8 G3/8 F3/2
+65: G3/4. G3/8:-ri- G3/2:-a
+66: C3/4:in E3/4:ex- A3/4:-cel- D3/4:-sis
+67: E3/2:De- E3/2:-o!      # circled breath after
+68: A3/2:Glo- F3/2
+69: B3/2 E3/2
+70: A3/2 D3/2
+tempo: 120
+text: Ritard
+71: E3/4. E3/8:-ri- E3/2:-a  # breath (circled comma) after
+tempo: 104
+text: Allargando
+72: r/1                 # women: in excelsis
+# p.8 (B-008, upper-left page)
+73: D3/4:in E3/4:ex- F3/4:-cel- G3/4:-sis
+74: A3/4:De- G3/4 F3/2:-o!   # pencil "BIG"
+75: F3/4:in G3/4:ex- A3/4:-cel- B3/4:-sis
+tempo: 84
+text: Molto Ritard
+76: C4/4:in B3/4:ex- A3/4:-cel- Fn3/4:-sis
+77: E3/4:De- A3/4~ A3/4 G3/4
+78: A3/1~:-o!           # final chord A3-C#4-E4: tenors take C#4/E4, bass A3
+79: A3/1!

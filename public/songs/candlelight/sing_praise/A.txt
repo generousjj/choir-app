@@ -1,0 +1,32 @@
+title: Sing Praise To Him Our Lord
+composer: James Christensen (SATB divisi; as performed at Disneyland and Walt Disney World)
+part: Alto
+spelling: page
+key: 0
+time: 4/4
+tempo: 140
+text: Majestic
+# Separate SATB octavo, not part of the processional. Pages: B-001 right half (m.1-10, low resolution), B-002 (m.11-20).
+# Alto staff, read from B-001 (m.1-10) and B-002 (m.11-20). Divisi written lower+upper.
+1: r/1
+2: r/4 D4/4:Sing A4/4:praise D5/4:to
+3: A4/1:Him
+4: G4/1:Our
+5: A4/1~:Lord
+6: A4/4 D4/4:He A4/4:is D5/4:the
+7: A4/2.:King A4/4:who's
+8: C5/4.:born G4/8:to E4/4:us C5/4:this
+9: D5/1~:day.
+10: D5/1~
+11: D5/1~
+12: D5/4 D4/4:He A4/4:is D5/4:the
+13: A4/1:King
+14: G4/1:of
+15: A4/1~:Kings.
+16: A4/4 A4/4:Sing D5/4:praise C5/4:to
+text: rit.
+17: Bb4/1:Him
+18: C5/1:Our
+text: molto rit.
+19: D5/1~:Lord.
+20: D5/1!

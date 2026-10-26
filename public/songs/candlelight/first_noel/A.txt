@@ -1,0 +1,139 @@
+title: The First Noel
+composer: arr. Don Neufeld (Kensington Choralworks, 2006)
+part: Alto
+key: 0
+time: 3/4
+tempo: 80
+text: Misterioso
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2 r/4t F4/8t:No-
+5: F4/2.~:-el!
+6: F4/2 r/4t F4/8t:No-
+7: F4/2.~:-el!
+8: F4/2 r/4t F4/8t:No-
+9: F4+Bb4/2.~:-el!
+10: F4+Bb4/4t C5/8t:No- F4/4~:-el! F4/4t Bb4/8t:No-
+time: 4/4
+11: F4+Bb4/4~:-el! F4+Bb4/4t F4+C5/8t:No- F4+Bb4/4~:-el! F4+Bb4/4~
+time: 3/4
+12: F4+Bb4/4t Bb4/8t:No- Bb4+C5/4t:-el! A4/8t:No- A4/4t:-el! C5/8t:No-
+13: Bb4+C5/2.:-el!
+14: r/2.
+15: r/2.
+16: r/2.
+17: r/2.
+18: r/2.
+19: r/2.
+20: r/2.
+21: r/2.
+time: 4/4
+22: r/2. E4/8:In D4/8
+time: 3/4
+23: C4/4.:fields D4/8 E4/8:where F4/8
+24: G4/2:they A4/8:lay B4/8
+25: C5/4:keep- B4/4:-ing A4/4:their
+26: G4/2:sheep A4/8:on B4/8:a
+27: C5/4:cold B4/4:win- A4/4:-ter's
+28: G4/4:night A4/4 B4/4:that
+29: C5/4:was G4/4 F4/4:so
+44p: E4/8:They D4/8
+45: C4/4.:look- D4/8 E4/8:-ed F4/8
+46: G4/2:up A4/8:and B4/8
+47: C5/4:saw B4/4 A4/4:a
+48: G4/2:star A4/8:shin- B4/8:-ing
+49: C5/4:in B4/4 A4/4:the
+50: G4/4:East, A4/4 B4/4:be-
+51: C5/4:-yond G4/4 F4/4:them
+time: 4/4
+52: E4/2:far. r/4 E4/8:And D4/8
+time: 3/4
+53: C4/4.:to D4/8 E4/8:the F4/8
+54: G4/2:earth A4/8:it B4/8
+55: C5/4:gave B4/4 A4/4:great
+56: G4/2:light, A4/8:and B4/8
+57: C5/4:so B4/4:it A4/4:con-
+58: G4/4:-tin- G4/4:-ued G4/4:both
+59: F4/4:day G4/4 F4/4:and
+time: 4/4
+60: E4/2.:night. r/4
+time: 3/4
+61: r/8 A4/8:No- G4/4:-el! E4/8:No- F4/8
+62: E4/2.:-el!
+63: E4/4:No- D4/2:-el!
+64: D4/4:No- C4/2:-el!
+65: F4/4:Born G4/4:is G4/8:the F4/8
+66: G4/4:King F4/4 F4/4:of
+67: E4/2:Is- F4/4:-ra-
+68: E4/2:-el! r/4
+key: 2
+spelling: page
+69: r/2.
+70: r/2.
+71: r/2 F4/8:This E4/8
+72: D4/4.:star E4/8 F4/8:drew G4/8
+73: A4/2:nigh B4/8:to C5/8
+74: D5/4:the C5/4 B4/4:north-
+75: A4/2:-west; B4/8:o- C5/8:-ver
+76: D5/4:Beth- C5/4 B4/4:-le-
+77: A4/4:-hem, B4/4 C5/4:it
+78: D5/4:took A4/4 G4/4:its
+79: F4/2:rest. r/4
+80: F4/4:those E4/4 B4/8:who G4/8
+81: G4/4:fol- E4/2:-lowed
+82: G4/4:that A4/4 G4/4:great
+83: E4/4:light F4/4 G4/8:found A4/8:the
+84: A4/4:child, A4/4:Christ G4/4:the
+85: E4/8:King, F4/8 G4/4:who A4/4:was
+86: G4/4:born D4/4 D4/4:that
+87: E4/4:night. D4/4 D4/8:No- E4/8
+88: D4/4.:-el! C4/8 D4/8:No- E4/8
+89: G4/2.:-el!
+90: F4/4:No- E4/2:-el!
+91: E4/4:No- D4/2:-el!
+92: G4/4:Born A4/4:is A4/8:the G4/8
+93: A4/4:King G4/4 G4/4:of
+94: G4/2:Is- C4/4:-ra-
+95: C4/2:-el! r/4
+96: r/2 G4/8:Then Fn4/8
+key: -3
+97: Eb4/4.:let F4/8 G4/8:us Ab4/8
+98: Bb4/2:all, C5/8:with D5/8
+99: Eb5/4:one D5/4 C5/4:ac-
+100: Bb4/2:-cord, C5/8:sing D5/8
+101: Eb5/4:prais- D5/4 C5/4:-es
+102: Bb4/4:to C5/4 D5/4:our
+103: Eb5/4:Heav'n- Bb4/4 Ab4/4:-ly
+104: G4/2:Lord. G4/8:And F4/8
+text: Majestic
+105: Eb4/4.:of- F4/8 G4/8:-fer Ab4/8
+106: F4+Bb4/2:gifts F4+Bb4/4:of
+107: Ab4+C5/4:wor- F4+Bb4/4:-ship Eb4+Ab4/4:and
+108: F4+Bb4/4:love Eb4+Bb4/4 Eb4+C5/8:to Eb4+D5/8
+109: Eb4+Ab4/4:Him D4+Ab4/4 Eb4+Ab4/4:sent
+110: F4/4:down Eb4/4 D4+Ab4/4:from
+111: F4+Ab4/2:Heav'n F4+Ab4/4:a-
+112: Eb4+G4/2:-bove. G4/8:No- F4/8
+113: Eb4/4.:-el! F4/8 G4/8:No- Ab4/8
+114: Eb4/2:-el! G4/4:No-
+115: Eb4/4:-el! F4/4 Ab4+C5/8:No- Ab4+D5/8
+116: Bb4/2:-el! Bb4+D5/4
+time: 4/4
+117: r/4 G4+C5/4:Born G4+Bb4/4:is Eb4+Ab4/4:the
+118: Eb4+G4/1:King!
+119: r/4 Ab4+C5/4:Born F4+Bb4/4:is F4+Bb4/4:the
+120: F4/2:King! Eb4/2
+121: C5/2:Born Bn4/4:is Ab4/4:the
+text: ff, rall.
+tempo: 66
+122: G4/2.:King G4/4:of
+123: Ab4/1:Is-
+124: Bb4/2. Eb4/4:-ra-
+text: sub. a tempo
+tempo: 80
+125: Eb4/1:-el!
+126: r/4 Ab4/4:Born G4/4:is Ab4/4:the
+127: G4+Bb4/1~:King!
+text: rit.
+128: G4+Bb4/1!

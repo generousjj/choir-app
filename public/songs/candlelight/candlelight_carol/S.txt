@@ -1,0 +1,127 @@
+title: Candlelight Carol
+composer: John Rutter
+part: Soprano
+key: -6
+time: 3/4
+tempo: 92
+text: Andante con moto
+spelling: page
+# Intro (organ)
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+# Verse 1: SOPRANOS (and ALTOS) only - men tacet
+5: Db4/4:How Gb4/4:do F4/4:you
+6: Gb4/4:cap- Ab4/4:-ture Bb4/4:the
+7: Cb4/2:wind Ab4/8:on Gb4/8:the
+8: F4/4:wa- Db4/2:-ter?
+9: Db4/4:How Gb4/4:do F4/4:you
+10: Gb4/4:count Ab4/4:all Bb4/4:the
+11: Cb5/4.:stars Cb5/8:in Db5/4:the
+12: Ab4/2.:sky?
+13: Ab4/4:How Db5/4:can Cb5/4:you
+14: Db5/4:mea- Eb5/4:-sure F5/4:the
+15: Gb4/2:love Ab4/8:of Bb4/8:a
+16: Bb4/8:mo- Cb5/8 Ab4/4.:-ther, Gb4/8:Or
+17: Ab4/4:how Db5/4:can Bb4/4:you
+18: Cb5/4:write Gb4/4.:down Cb5/8:a
+19: Bb4/4:ba- Db4/4.:-by's Ab4/8:first
+20: Gb4/2.:cry?
+# Refrain (verse 1, unaccompanied): Bass 1 staff (Bass 2 staff crossed out in pencil)
+21: Cb5/8:Can- Db5/8:-dle- Eb5/2:-light,
+22: Db5/8:an- Cb5/8:-gel Bb4/2:light,
+23: Ab4/8:fire- Bb4/8 Gb4/4:-light Ab4/4:and
+24: Bb4/4:star- Db5/2:-glow
+25: Cb5/4:Shine Db5/4:on Eb5/4:his
+26: Db5/4:cra- Bb4/4:-dle Ab4/4:till
+27: Gb4/4:break- Bb4/4:-ing Cn5/4:of
+28: Db5/2.:dawn.
+29: Eb5/8:Glo- F5/8:-ri- Gb5/2:-a,
+30: F5/8:glo- Eb5/8:-ri- Db5/2:-a
+31: Eb5/8:in Cb5/8:ex- Cb5/4.:-cel- Eb5/8:-sis
+32: Db5/4:De- Gb4/2:-o!
+33: Gb4/4:An- Gb4/4:-gels Cb5/4:are
+34: Bb4/4:sing- Db4/4.:-ing; Bb4/8:the
+35: Ab4/4:child Db4/4. Ab4/8:is
+# 1st ending (T.B. staff, bass divides on one stem)
+36: Gb4/2.:born.
+37: r/2.
+38: r/2.
+39: r/2.
+40: r/2.
+# Verse 2: TENORS (and BASSES) in unison on the treble-8 voice staff (followed at sounding pitch)
+41: r/2.
+42: r/2.
+43: r/2.
+44: r/2.
+45: r/2.
+46: r/2.
+47: r/2.
+48: r/2.
+49: r/2.
+50: r/2.
+51: r/2.
+52: r/2.
+53: r/2.
+54: r/2.
+55: r/2.
+56: r/2.
+# Refrain (verse 2, accompanied): Bass 1
+57: Cb5/8:Can- Db5/8:-dle- Eb5/2:-light,
+58: Db5/8:an- Cb5/8:-gel Bb4/2:light,
+59: Ab4/8:fire- Bb4/8 Gb4/4:-light Ab4/4:and
+60: Bb4/4:star- Db5/2:-glow
+61: Cb5/4:Shine Db5/4:on Eb5/4:his
+62: Db5/4:cra- Bb4/4:-dle Ab4/4:till
+63: Gb4/4:break- Bb4/4:-ing Cn5/4:of
+64: Db5/2.:dawn.
+65: Eb5/8:Glo- F5/8:-ri- Gb5/2:-a,
+66: F5/8:glo- Eb5/8:-ri- Db5/2:-a
+67: Eb5/8:in Cb5/8:ex- Cb5/4.:-cel- Eb5/8:-sis
+68: Db5/4:De- Gb4/2:-o!
+69: Gb4/4:An- Gb4/4:-gels Cb5/4:are
+70: Bb4/4:sing- Db4/4.:-ing; Bb4/8:the
+71: Ab4/4:child Db4/4. Ab4/8:is
+# 2nd ending
+72: Gb4/2.:born.
+# Verse 3 (SATB, T.B. share a staff: bass = stems down)
+73: r/2.
+74: r/2.
+75: Db4/4:Find Gb4/4:him F4/4:at
+76: Gb4/4:Beth- Ab4/4:-le- Bb4/4:-hem
+77: Cb4/2:laid Ab4/8:in Gb4/8:a
+78: F4/4:man- Db4/2:-ger:
+79: Db4/4:Christ Gb4/4:our F4/4:Re-
+80: Gb4/4:-deem- Ab4/4:-er Bb4/4:a-
+81: Cb5/4.:-sleep Cb5/8:in Db5/4:the
+82: Ab4/2.:hay,
+83: Ab4/4:God- Db5/4:-head Cb5/4:in-
+84: Db5/4:-car- Eb5/4:-nate F5/4:and
+85: Gb4/2:hope Ab4/8:of Bb4/8:sal-
+86: Bb4/8:-va- Cb5/8 Ab4/4.:-tion: Gb4/8:A
+# A.T.B. Hum (soprano sings "A child with his mother that first Christmas Day")
+87: Ab4/4:child Db5/4:with Bb4/4:his
+88: Cb5/4:mo- Gb4/4.:-ther Cb5/8:that
+89: Bb4/4:first Db4/4.:Christ- Ab4/8:-mas
+90: Gb4/2.:Day.
+# [E] men unis., melody
+91: Ab4/4:Ah Cb5/4 Ab4/4
+92: Bb4/4 Db5/4 Bb4/4
+93: Cb5/2 Db5/4
+94: Bb4/2 Ab4/4:Ah
+95: Gb4/2 Cb5/4
+96: Bb4/4 Db5/4 Bb4/4
+97: Eb5/4. F5/8 Eb5/4
+98: Db5/2.
+# Final Gloria: Bass 1 staff (Bass 2 crossed out)
+99: Eb5/8:Glo- F5/8:-ri- Gb5/2:-a,
+100: F5/8:glo- Eb5/8:-ri- Db5/2:-a
+101: Eb5/8:in Cb5/8:ex- Cb5/4.:-cel- Eb5/8:-sis
+102: Db5/4:De- Gb4/2:-o!
+103: Gb4/4:An- Gb4/4:-gels Cb5/4:are
+104: Bb4/4:sing- Db4/4.:-ing; Bb4/8:the
+105: Bb4/4:child Eb4/4. Bb4/8:is
+text: rall.
+106: Ab4/2.:born.
+107: Gb4/2.!

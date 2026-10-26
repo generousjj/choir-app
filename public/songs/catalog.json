@@ -1,0 +1,17 @@
+{
+  "songs": [
+    {
+      "id": "hallelujah",
+      "title": "Hallelujah",
+      "subtitle": "Messiah, HWV 56 — Part II, No. 44 (Chorus)",
+      "composer": "George Frideric Handel (1741)",
+      "file": "songs/hallelujah/score.musicxml",
+      "practiceTempo": [
+        { "measure": 1, "qpm": 96, "text": "Allegro" },
+        { "measure": 93, "qpm": 60, "text": "Adagio (performance practice)" }
+      ],
+      "source": "CCARH MuseData encoding of the Händel-Gesellschaft edition (ed. F. Chrysander, 1902), as distributed with music21 1.9.3 (corpus/handel/hwv56/movement2-21.md). Converted to MusicXML by tools/musedata_to_musicxml.py.",
+      "license": "Composition public domain. Encoding © 1990, 2002 Center for Computer Assisted Research in the Humanities; distributed for research/non-commercial use."
+    }
+  ]
+}

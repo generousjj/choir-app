@@ -1,0 +1,280 @@
+title: Candlelight Processional
+composer: Disneyland Candlelight (Vocal edition, REV 09/1/23)
+part: Soprano (women, unison melody)
+spelling: page
+# Vocal edition = single unison melody line in treble clef. The men sing it an octave lower,
+# so every pitch here is the printed melody transposed down one octave.
+# --- O Come, All Ye Faithful ---
+key: 1
+time: 4/4
+tempo: 104
+text: Joyful and Triumphant!
+0p: r/4                 # organ pickup
+
+1: r/1                 # organ
+2: r/1                 # organ
+3: r/1                 # organ
+4: r/1                 # organ
+5: r/1                 # organ
+6: r/1                 # organ
+7: r/1                 # organ
+8: r/2 r/4 G4/4:O
+9: G4/2:come, D4/4:all G4/4:ye
+10: A4/2:faith- D4/2:-ful,
+11: B4/4:joy- A4/4:-ful B4/4:and C5/4:tri-
+12: B4/2:-um- A4/4:-phant, G4/4:O
+13: G4/2:come F4/4:ye, E4/4:O
+14: F4/4:come G4/4 A4/4:ye B4/4:to
+15: A4/2:Beth- E4/4. D4/8:-le-
+16: D4/1:-hem.
+17: D5/2:Come C5/4:and B4/4:be-
+18: C5/2:-hold B4/2:him,
+19: A4/4:born B4/4:the G4/4:King A4/4:of
+20: F4/4.:an- E4/8 D4/4:-gels; G4/4:O
+21: G4/4:come, F4/4:let G4/4:us A4/4:a-
+22: G4/2:-dore D4/4:him, B4/4:O
+23: B4/4:come, A4/4:let B4/4:us C5/4:a-
+24: B4/2:-dore A4/4:him, B4/4:O
+25: C5/4:come, B4/4:let A4/4:us G4/4:a-
+26: F4/2:-dore G4/4:him, C5/4
+text: Poco rit.
+27: B4/2:Christ A4/4. G4/8:the
+28: G4/2.!:Lord. r/4
+# --- O Come, O Come, Emmanuel ---
+tempo: 58
+text: Flowing, like a chant
+29p: r/2                # organ (2-beat partial bar)
+
+30: r/1                # organ
+31: r/1                # organ
+32: r/1                # organ
+33: r/1                # organ
+34: r/1                # organ
+35: r/2. E4/4:O
+36: G4/4:come, B4/4:O B4/4:come, B4/4:Em-
+37: A4/4:-man- C5/4 B4/4 A4/4:-u-
+38: G4/2.:-el, A4/4:and
+39: B4/4:ran- G4/4:-som E4/4:cap- G4/4:-tive
+40: A4/4:Is- F4/4 E4/4 D4/4:-ra-
+41: E4/2.:-el, A4/4:that
+42: A4/4:mourns E4/4:in E4/4:lone- F4/4:-ly
+43: G4/2:ex- F4/4 E4/4:-ile
+44: D4/2.:here G4/4:un-
+45: A4/4:-til B4/4:the B4/4:Son B4/4:of
+46: A4/4:God C5/4 B4/4 A4/4:ap-
+47: G4/2.:-pear. D5/4:Re-
+48: D5/2.:-joice! B4/4:Re-
+49: B4/2.:-joice! B4/4:E-
+time: 6/4               # m.50 is printed with six quarter notes (chant style, no time signature shown)
+50: A4/4:-man- C5/4 B4/4 A4/4:-u- G4/4:-el A4/4:shall
+time: 4/4
+51: B4/4:come G4/4:to E4/4:thee, G4/4:O
+52: A4/4:Is- F4/4 E4/4 D4/4:-ra-
+53: E4/2.!:-el. r/4
+54p: r/2                # organ (2-beat partial bar)
+# --- God Rest Ye Merry, Gentlemen ---
+time: 2/2
+tempo: 168              # half = 84
+text: Light, detached
+
+55: r/1                # organ
+56: r/1                # organ
+57: r/1                # organ
+58: r/1                # organ
+59: r/1                # organ  (12-bar rest 59-70)
+60: r/1                # organ
+61: r/1                # organ
+62: r/1                # organ
+63: r/1                # organ
+64: r/1                # organ
+65: r/1                # organ
+66: r/1                # organ
+67: r/1                # organ
+68: r/1                # organ
+69: r/1                # organ
+70: r/1                # organ
+71: r/1                # organ
+72: r/1                # organ
+73: r/1                # organ
+74: r/2 r/4 E4/4:God
+75: E4/4:rest B4/4:ye B4/4:mer- A4/4:-ry,
+76: G4/4:gen- F4/4:-tle- E4/4:-men, D4/4:let
+77: E4/4:no- F4/4:-thing G4/4:you A4/4:dis-
+78: B4/2.:-may, E4/4:Re-
+79: E4/4:-mem- B4/4:-ber B4/4:Christ A4/4:our
+80: G4/4:Sa- F4/4 E4/4:-vior D4/4:was
+81: E4/4:born F4/4:on G4/4:Christ- A4/4:-mas
+82: B4/2:Day; r/4 B4/4:To
+83: C5/4:save A4/4:us B4/4:all C5/4:from
+84: D5/4:Sa- E5/4:-tan's B4/4:pow'r A4/4:when
+85: G4/4:we E4/4:were F4/4:gone G4/4:a-
+86: A4/2:-stray. G4/4:O A4/4
+87: B4/2:ti- C5/4:-dings B4/4:of
+88: B4/4:com- A4/4 G4/4:-fort F4/4:and
+89: E4/2:joy, G4/8:com- F4/8:-fort E4/4:and
+90: F4/2:joy; G4/4:O A4/4
+text: Poco rit.
+91: B4/4:ti- C5/4 D5/4:-dings E5/4:of
+92: B4/4:com- A4/4 G4/4:-fort F4/4:and
+93: E4/2.!:joy. r/4
+# --- Here We Come a-Caroling ---
+key: -3
+time: 6/8
+tempo: 162              # dotted quarter = 108
+text: Lilting
+
+94: r/2.               # organ
+95: r/2.               # organ
+96: r/2.               # organ
+97: r/2.               # organ
+98: r/2.               # organ
+99: r/2.               # organ
+100: r/2.               # organ
+101: r/2.               # organ
+102: E4/4:Here F4/8:we G4/4:come F4/8:a-
+103: E4/4:-car- F4/8:-ol- G4/4:-ing F4/8:A-
+104: E4/4:-mong B4/8:the B4/4:leaves B4/8:so
+105: B4/4.~:green; B4/4 r/8
+106: C5/4:Here C5/8:we B4/4:come G4/8:a-
+107: B4/4.:-wan- A4/4:-d'ring, G4/8:So
+108: F4/4:fair E4/8 F4/4:to G4/8:be
+109p: A4/4:seen. r/8     # printed as a 3/8 partial bar before the double bar
+time: 2/2
+tempo: 216              # no mark printed for the cut-time refrain; assumed half = dotted quarter (108)
+text: Refrain
+110p: G4/4:Love A4/4:and
+111: B4/2:joy E5/4:come C5/4:to
+112: B4/2:you, G4/4:And A4/4:to
+113: B4/4:you B4/4:glad E5/4:Christ- C5/4:-mas
+114: B4/2:too; G4/4:And A4/4:God
+115: B4/2:bless C5/4:you G4/4:and
+116: A4/4:send F4/4 E4/4:you D4/4:a
+117: E4/4.:hap- F4/8 G4/4:-py E4/4:New
+text: Poco rit.
+118: F4/2:Year, G4/4:And A4/4:God
+119: B4/2:send C5/4:you G4/4:a
+120: A4/4:hap- F4/4 E4/4:-py D4/4:New
+121: E4/2.!:Year. r/4
+# --- Hark! The Herald Angels Sing ---
+key: -1
+time: 4/4
+tempo: 108
+text: Exuberant!
+
+122: r/1               # organ
+123: r/1               # organ
+124: r/1               # organ
+125: r/1               # organ
+126: r/1               # organ
+127: r/1               # organ
+128: r/1               # organ
+129: r/1               # organ
+130: r/1               # organ
+131: C4/4:Hark! F4/4:the F4/4.:her- E4/8:-ald
+132: F4/4:an- A4/4:-gels A4/4:sing, G4/4
+133: C5/4:Glo- C5/4:-ry C5/4.:to B4/8:the
+134: A4/4:new- G4/4:-born A4/2:King;
+135: C4/4:peace F4/4:on F4/4.:earth, E4/8:and
+136: F4/4:mer- A4/4:-cy A4/4:mild, G4/4
+137: C5/4:God G4/4:and G4/4.:sin- E4/8:-ners
+138: E4/4:rec- D4/4:-on- C4/2:-ciled!
+139: C5/4:Joy- C5/4:-ful, C5/4:all F4/4:ye
+140: B4/4:na- A4/4:-tions A4/4:rise, G4/4
+141: C5/4:join C5/4:the C5/4:tri- F4/4:-umph
+142: B4/4:of A4/4:the A4/4:skies; G4/4
+143: D5/4:with D5/4:th'an- D5/4:-gel- C5/4:-ic
+144: B4/4:host A4/4:pro- B4/2:-claim,
+145: G4/4:Christ A4/8:is B4/8 C5/4.:born F4/8:in
+146: F4/4:Beth- G4/4:-le- A4/2:-hem!
+147: D5/4.:Hark! D5/8:the D5/4:her- C5/4:-ald
+148: B4/4:an- A4/4:-gels B4/2:sing,
+text: Poco rit.
+149: G4/4:Glo- A4/8:-ry B4/8 C5/4.:to F4/8:the
+150: F4/4:new- G4/4:-born F4/2!:King!   # pencil: "retard"
+# --- It Came Upon the Midnight Clear ---
+key: -2
+time: 6/8
+tempo: 78               # dotted quarter = 52
+text: Reverently
+151p: r/4.              # organ pickup (3 eighths)
+152: r/2.               # organ
+153: r/2.               # organ
+154: r/2.               # organ
+155: r/4. r/8 r/8 F4/8:It
+156: D5/4:came A4/8:up- C5/8:-on B4/8 G4/8:the
+157: F4/4:mid- G4/8:-night F4/4:clear, F4/8:that
+158: G4/8:glo- A4/8:-ri- B4/8:-ous B4/8:song C5/8 D5/8:of
+159: C5/4.~:old, C5/8 r/8 F4/8:from
+160: D5/4:an- A4/8:-gels C5/8:bend- B4/8 G4/8:-ing
+161: F4/4:near G4/8:the F4/4:earth F4/8:to
+162: G4/4:touch G4/8:their A4/8:harps G4/8 F4/8:of
+163: B4/4.~:gold: B4/8 r/8 D5/8:Peace
+164: D5/4:on D4/8:the D4/8:earth, En4/8 F#4/8:good
+165: G4/4:will A4/8:to B4/4:men, D5/8:from
+166: C5/8:heav- B4/8 A4/8:-en's_all G4/8:gra- A4/8 G4/8:-cious
+167: F4/4.~:King. F4/8 r/8 F4/8:The
+168: D5/4:world A4/8:in C5/8:sol- B4/8 G4/8:-emn     # pencil "Wh" under "world"
+169: F4/4:still- G4/8:-ness F4/4:lay, F4/8:to
+text: Poco rit.
+170: G4/4:hear G4/8:the A4/8:an- G4/8 F4/8:-gels
+171: B4/4.~:sing. B4/4! r/8
+# --- Deck the Halls ---
+key: -3
+time: 2/2
+tempo: 164              # half = 82
+text: Playful
+
+172: r/1               # organ
+173: r/1               # organ
+174: r/1               # organ
+175: r/1               # organ
+176: r/1               # organ
+177: r/1               # organ
+178: r/1               # organ
+179: r/1               # organ
+180: r/1               # organ
+181: B4/4.:Deck A4/8:the G4/4:halls F4/4:with
+182: E4/4:boughs F4/4:of G4/4:hol- E4/4:-ly,
+183: F4/8:fa G4/8:la A4/8:la F4/8:la G4/4.:la F4/8:la
+184: E4/4:la D4/4:la E4/2:la.
+185: B4/4.:'Tis A4/8:the G4/4:sea- F4/4:-son
+186: E4/4:to F4/4:be G4/4:jol- E4/4:-ly,
+187: F4/8:fa G4/8:la A4/8:la F4/8:la G4/4.:la F4/8:la
+188: E4/4:la D4/4:la E4/2:la.
+189: F4/4.:Don G4/8:we A4/4:now F4/4:our
+190: G4/4.:gay A4/8:ap- B4/4:-par- F4/4:-el,
+191: G4/8:fa An4/8:la B4/4:la C5/8:la D5/8:la E5/4:la
+192: D5/4:la C5/4:la B4/2:la.
+193: B4/4.:Troll A4/8:the G4/4:an- F4/4:-cient
+194: E4/4:Yule- F4/4:-tide G4/4:car- E4/4:-ol,
+195: C5/8:fa C5/8:la C5/8:la C5/8:la B4/4.:la A4/8:la
+196: G4/4:la F4/4:la E4/2:la.
+197: r/1                # organ
+198: r/1                # organ
+# --- O Little Town of Bethlehem ---
+key: -1
+tempo: 100              # half = 50
+text: Gently
+199p: r/2               # organ (2-beat partial bar)
+200: r/1                # organ
+201: r/1                # organ
+202: r/1                # organ
+203: r/2 r/4 A4/4:O
+204: A4/4:lit- A4/4:-tle G#4/4:town A4/4:of
+205: C5/4:Beth- B4/4:-le- D4/4:-hem, G4/4:how
+206: F4/4:still E4/8:we F4/8 G4/4:see C4/4:thee
+207: A4/2.:lie; A4/4:a-
+208: A4/4:-bove A4/4:thy D5/4:deep C5/4:and
+209: C5/4:dream- B4/4:-less D4/4:sleep G4/4:the
+210: F4/4:si- E4/8:-lent F4/8 A4/4:stars G4/4:go
+211: F4/2.:by. A4/4:Yet
+212: A4/4:in A4/4:thy G4/4:dark F4/4:streets
+213: E4/2:shin- E4/4:-eth E4/4:the
+214: D4/4:ev- E4/4:-er- F4/4:-last- G4/4:-ing
+215: A4/2.:light; A4/4:the
+216: A4/4:hopes A4/4:and G#4/4:fears A4/4:of
+text: Poco rit.
+217: C5/4:all B4/4:the D4/4:years D5/4:are
+218: C5/4:met F4/4:in A4/4.:thee G4/8:to-
+219: F4/2.!:-night. r/4
+

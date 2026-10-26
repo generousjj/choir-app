@@ -1,0 +1,157 @@
+title: We Three Kings
+composer: arr. Jack Eskew & Bruce Healey
+part: Bass
+key: -2                 # G minor
+time: 3/8
+tempo: 90               # printed: dotted quarter = 60, "In One"
+text: In One
+spelling: page
+# ---- page 1 (B-010): intro
+1: r/4.
+2: r/4.
+3: r/4.
+4: r/4.
+# Men (unison), mp. "(% D.S. in choir & orch. parts)" - the PV prints the D.S. written out as 5A-22A
+5: D4/4:We C4/8:three
+6: Bb3/4:kings G3/8:of
+7: A3/8:or- Bb3/8:-i- A3/8:-ent
+8: G3/4.:are,
+9: D4/4:Bear- C4/8:-ing
+10: Bb3/4:gifts G3/8:we
+11: A3/8:tra- Bb3/8:-verse A3/8:a-
+12: G3/4.:-far
+# Men staff divides (two heads on one stem) mm13-16: chord lower first (upper = melody)
+13: G3+Bb3/4:Field G3+Bb3/8:and
+14: A3+C4/4:foun- A3+C4/8:-tain
+15: Bb3+D4/4:moor Bb3+D4/8:and
+16: D4+F4/8:moun- C4+Eb4/8 Bb3+D4/8:-tain
+17: C4/8:Fol- D4/8:-low- C4/8:-ing
+18: Bb3/4:yon- A3/8:-der
+# ---- page 2 (B-011 upper): T/B staff, bass notes only (tenor echoes "Following yonder star")
+19: G3/4.~:star
+20: G3/4.~
+21: G3/4.~                 # T and B share the G3 here
+22: G3/8 r/8 r/8
+23: A3/4.:Oh             # shared notehead with tenor; "(to coda in choir & orch. parts)"
+24: F3/4.                # slurred from A3 (tenor goes to Eb4)
+25: Bb3/4:Star Bb3/8:of
+26: Bb3/4:won- F3/8:-der
+27: Bb3/4:star G3/8:of
+28: Bb3/4.:nite
+29: Bb3/4:Star Bb3/8:with
+30: Bb3/4:roy- F3/8:-al   # was C4; the T/B chord is Bb3 under D4 (matches m.25-26)
+31: Bb3/4:beau- G3/8:-ty
+32: Bb3/4.:bright
+33: G3/4:West- G3/8:-ward
+34: F3/4:lead- F3/8:-ing
+35: Eb3/4:still Eb3/8:pro-
+36: F3/4:-ceed- F3/8:-ing
+# ---- page 3 (B-011 lower)
+37: Bb3/4:Guide G3/8:us     # Bb3 shared with tenor
+38: F3/4:to F3/8:thy
+39: Eb3/4:per- Eb3/8:-fect
+40: Bb2/4.~:light
+41: Bb2/4.~
+42: Bb2/4.~
+43: Bb2/4.
+# choir tacet mm44-55 (piano only)
+44: r/4.
+45: r/4.
+46: r/4.
+47: r/4.
+48: r/4.
+49: r/4.
+50: r/4.
+51: r/4.
+52: r/4.
+53: r/4.
+54: r/4.
+55: r/4.
+key: -5                 # B-flat minor from m56
+text: mp
+# T/B in unison (melody), canon against S/A one bar later
+56: F4/4:Born Eb4/8:a
+57: Db4/4:king Bb3/8:on
+58: C4/8:Beth- Db4/8:-le- C4/8:-hem's
+59: Bb3/4.:plain
+60: F4/4:Gifts Eb4/8:we
+# ---- page 4 (B-012 upper)
+61: Db4/4:bring Bb3/8:to
+62: C4/8:crown Db4/8:him C4/8:a-
+63: Bb3/4.:-gain
+# f: T/B split from here; bass notes only
+64: Db4/4:King Db4/8:for-     # one notehead, T and B together
+65: C4/4:-e- C4/8:-ver       # tenor Eb4
+66: Db4/4:ceas- Db4/8:-ing     # tenor F4
+67: Ab3/8:ne- Gb3/8 F3/8:-ver
+68: Eb3/8:O- F3/8:-ver Eb3/8:us   # bass an octave under the tenor melody
+69: Db3/4:all C3/8:to
+70: Bb2/4.~:reign
+71: Bb2/4.~
+72: Bb2/4.~
+73: Bb2/4.                    # pencil arrow + vertical line: release at the end of m73
+74: r/4.
+75: r/4.
+76: r/4.
+77: r/4.
+key: -2                 # back to 2 flats (B-flat major refrain)
+text: f
+# ---- page 5 (B-012 lower): refrain again, same notes as mm25-41
+78: Bb3/4:Star Bb3/8:of
+79: Bb3/4:won- F3/8:-der
+80: Bb3/4:star G3/8:of
+81: Bb3/4.:nite
+82: Bb3/4:Star Bb3/8:with
+83: Bb3/4:roy- F3/8:-al   # was C4; the T/B chord is Bb3 under D4 (matches m.25-26)
+84: Bb3/4:beau- G3/8:-ty
+85: Bb3/4.:bright
+86: G3/4:West- G3/8:-ward
+87: F3/4:lead- F3/8:-ing
+88: Eb3/4:still Eb3/8:pro-
+89: F3/4:-ceed- F3/8:-ing
+90: Bb3/4:Guide G3/8:us
+91: F3/4:to F3/8:thy
+92: Eb3/4:per- Eb3/8:-fect
+93: Bb2/4.~:light
+94: Bb2/4.~
+# ---- page 6 (B-013)
+95: Bb2/4.~
+96: Bb2/4.
+97: r/4.
+98: r/4.
+99: r/4.
+100: r/4.                 # "(D.S. al coda in choir & orch. parts)" - PV writes the D.S. out as 5A-22A
+text: mp
+5a: D4/4:We C4/8:three
+6a: Bb3/4:kings G3/8:of
+7a: A3/8:or- Bb3/8:-i- A3/8:-ent
+8a: G3/4.:are,
+9a: D4/4:Bear- C4/8:-ing
+10a: Bb3/4:gifts G3/8:we
+11a: A3/8:tra- Bb3/8:-verse A3/8:a-
+12a: G3/4.:-far
+13a: G3+Bb3/4:Field G3+Bb3/8:and
+14a: A3+C4/4:foun- A3+C4/8:-tain
+15a: Bb3+D4/4:moor Bb3+D4/8:and
+16a: D4+F4/8:moun- C4+Eb4/8 Bb3+D4/8:-tain
+# ---- page 7 (B-014)
+17a: C4/8:Fol- D4/8:-low- C4/8:-ing
+18a: Bb3/4:yon- A3/8:-der
+19a: G3/4.~:star            # upper voice echoes "Following yonder star" (C4 D4 C4 | Bb3 A3 | G3); lower line taken
+20a: G3/4.~
+21a: G3/4.~
+22a: G3/8 r/8 r/8
+# Coda ("in choir & orch. parts"), T/B staff
+text: Rubato
+101: Eb4/8:Fol- D4/8:-low- C4/8:-ing   # single line, T and B together
+102: C4/8:Fol- Bb3/8:-low- C4/8:-ing
+103: Bb3/4.:yon-            # tenor D4
+104: A3/4.:-der             # tenor C4
+105: G3/4.~:star            # tenor D4
+106: G3/4.~                 # dim.
+107: G3/4.~
+108: G3/4.~
+text: Ritard
+109: G3/4.~
+110: G3/4.~
+111: G3/4.!

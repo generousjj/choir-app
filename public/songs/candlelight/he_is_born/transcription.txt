@@ -1,0 +1,55 @@
+title: He Is Born (Il Est Né)
+composer: arr. Roger (Robert) Wagner
+part: Bass
+key: -4
+time: 4/4
+tempo: 112              # no metronome mark printed; "Joyfully" -> 112 chosen
+spelling: page
+# Mm. 1-8 (optional instrumental intro) and 9-32 (pencil X) not performed.
+# m.37-38 restored as rests: the singer confirmed the long pause before "Bow in homage".
+# PASS 1 - verse in English (p.3 marked "EN legato" / "EN")
+33: r/1                 # women: "He was born in a stable bare," (pencil start mark at m.33)
+34: r/1
+text: legato
+35: Ab2+Eb3/4:On Ab2+Eb3/8:bed Ab2+F3/8:of Ab2+Ab3/4:straw Ab2+Ab3/8:now Ab2+Ab3/8:He
+36: Db3+F3/4:sleeps Db3+F3/4:so Eb3/4:sound- Eb3/4:-ly.
+# mm. 37-38: women sing "He was born in a stable bare" (pencil X = men don't sing): men wait
+37: r/1
+38: r/1
+39: Ab2+Eb3/4:Bow Ab2+F3/4:in Ab2+Ab3/4:hom- Ab2+Ab3/4:-age
+text: rit.
+40: Db3+F3/4:to Db3+F3/4:Him Eb3+G3/2:now.
+# C (first time) - FRENCH (pencil "C x2: FR then (prev pg then) EN"; phonetic French pencilled under bass)
+text: a tempo
+41: Ab2/4:Il Ab2/4:est C3/4:né, F3/8:le F3/8:di-
+42: Eb3/4:-vin Eb3/4:en- Ab2+Eb3/2:-fant,
+43: Ab3/4:Jou- Ab3/8:-ez Eb3/8:haut- Ab3/4:-bois, Ab3/8:ré- Ab3/8:-son-
+44: Bb3/4:-nez Bb3/4:mu- Eb3/4:-set- Eb3/4:-tes.
+45: Ab3/8:Il G3/8 F3/8:est Eb3/8 Db3/4:né, Db3/8:le Db3/8:di-
+46: Db3/4:-vin C3/4:en- C3/2:-fant,
+text: f rit.
+47: F3/4:Chan- Eb3/4:-tons Ab3/4:tous Db4/8:son Db4/8:a-
+48: Eb4/4:-vè- Eb3/4:-ne- Ab3/2!:-ment.
+# back to m.33 (pencil "-> (circle) 33" at foot of p.4) - PASS 2, verse again in English
+text: a tempo
+33: r/1
+34: r/1
+text: legato
+35: Ab2+Eb3/4:On Ab2+Eb3/8:bed Ab2+F3/8:of Ab2+Ab3/4:straw Ab2+Ab3/8:now Ab2+Ab3/8:He
+36: Db3+F3/4:sleeps Db3+F3/4:so Eb3/4:sound- Eb3/4:-ly.
+37: r/1
+38: r/1
+39: Ab2+Eb3/4:Bow Ab2+F3/4:in Ab2+Ab3/4:hom- Ab2+Ab3/4:-age
+text: rit.
+40: Db3+F3/4:to Db3+F3/4:Him Eb3+G3/2:now.
+# C (second time) - ENGLISH
+text: a tempo
+41: Ab2/4:Now Ab2/4:is C3/4:born F3/8:the F3/8:Di-
+42: Eb3/4:-vine Eb3/4:Christ Ab2+Eb3/2:Child.
+43: Ab3/4:Play Ab3/8:the Eb3/8:mu- Ab3/4:-sette, Ab3/8:play Ab3/8:the
+44: Bb3/4:tune- Bb3/4:-ful Eb3/4:o- Eb3/4:-boes.
+45: Ab3/8:Now G3/8 F3/8:is Eb3/8 Db3/4:born Db3/8:the Db3/8:Di-
+46: Db3/4:-vine C3/4:Christ C3/2:Child.
+text: f rit.
+47: F3/4:Let Eb3/4:all Ab3/4:sing Db4/8:and Db4/8:re-
+48: Eb4/4:-joice Eb3/4:this Ab3/2!:day!

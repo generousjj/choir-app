@@ -1,0 +1,55 @@
+title: He Is Born (Il Est Né)
+composer: arr. Roger (Robert) Wagner
+part: Alto
+key: -4
+time: 4/4
+tempo: 112              # no metronome mark printed; "Joyfully" -> 112 chosen
+spelling: page
+# Mm. 1-8 (optional instrumental intro) and 9-32 (pencil X) not performed.
+# m.37-38 restored as rests: the singer confirmed the long pause before "Bow in homage".
+# PASS 1 - verse in English (p.3 marked "EN legato" / "EN")
+33: Eb4+Ab4/4:He F4+Ab4/4:was Ab4+C5/4:born F4+Ab4/8:in Eb4+Ab4/8:a
+34: F4+Ab4/4:sta- G4/4:-ble Ab4+C5/2:bare,
+text: legato
+35: r/1
+36: r/1
+# mm. 37-38: women sing "He was born in a stable bare" (same music as 33-34; tenors and basses rest)
+37: Eb4+Ab4/4:He F4+Ab4/4:was Ab4+C5/4:born F4+Ab4/8:in Eb4+Ab4/8:a
+38: F4+Ab4/4:sta- G4/4:-ble Ab4+C5/2:bare.
+39: r/1
+text: rit.
+40: r/1
+# C (first time) - FRENCH (pencil "C x2: FR then (prev pg then) EN"; phonetic French pencilled under bass)
+text: a tempo
+41: C4/4:Il C4/4:est Eb4/4:né, C4/8:le C4/8:di-
+42: Db4/4:-vin Db4/4:en- C4/2:-fant,
+43: Eb4/4:Jou- Eb4/8:-ez G4/8:haut- Ab4/4:-bois, Ab4/8:ré- Ab4/8:-son-
+44: F4/4:-nez F4/4:mu- G4/4:-set- Eb4/4:-tes.
+45: C4/4:Il C4/4:est Db4/4:né, Db4/8:le Db4/8:di-
+46: Bb3/4:-vin Eb4/4:en- Eb4/2:-fant,
+text: f rit.
+47: C4/4:Chan- G4/4:-tons Ab4/4:tous Ab4/8:son Ab4/8:a-
+48: G4/4:-vè- G4/4:-ne- Eb4/2!:-ment.
+# back to m.33 (pencil "-> (circle) 33" at foot of p.4) - PASS 2, verse again in English
+text: a tempo
+33: Eb4+Ab4/4:He F4+Ab4/4:was Ab4+C5/4:born F4+Ab4/8:in Eb4+Ab4/8:a
+34: F4+Ab4/4:sta- G4/4:-ble Ab4+C5/2:bare,
+text: legato
+35: r/1
+36: r/1
+37: Eb4+Ab4/4:He F4+Ab4/4:was Ab4+C5/4:born F4+Ab4/8:in Eb4+Ab4/8:a
+38: F4+Ab4/4:sta- G4/4:-ble Ab4+C5/2:bare.
+39: r/1
+text: rit.
+40: r/1
+# C (second time) - ENGLISH
+text: a tempo
+41: C4/4:Now C4/4:is Eb4/4:born C4/8:the C4/8:Di-
+42: Db4/4:-vine Db4/4:Christ C4/2:Child.
+43: Eb4/4:Play Eb4/8:the G4/8:mu- Ab4/4:-sette, Ab4/8:play Ab4/8:the
+44: F4/4:tune- F4/4:-ful G4/4:o- Eb4/4:-boes.
+45: C4/4:Now C4/4:is Db4/4:born Db4/8:the Db4/8:Di-
+46: Bb3/4:-vine Eb4/4:Christ Eb4/2:Child.
+text: f rit.
+47: C4/4:Let G4/4:all Ab4/4:sing Ab4/8:and Ab4/8:re-
+48: G4/4:-joice G4/4:this Eb4/2!:day!

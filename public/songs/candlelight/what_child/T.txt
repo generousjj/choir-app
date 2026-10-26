@@ -1,0 +1,52 @@
+title: What Child Is This? (Duet Version)
+composer: arr. Whitcomb rev. Healey
+part: Tenor
+key: 1
+time: 6/8
+tempo: 72               # no metronome mark printed; chosen (dotted quarter = 48)
+spelling: page
+# Pages: B-008 right page (p.1, m1-12), B-009 left (p.2, m13-30) and right (p.3, m31-42).
+# T/B staff: tenor = upper / up-stem voice (sounding pitch, bass clef).
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: B3/2.:lu
+8: A3/2.:lu
+9: G3/4.:lu F3/4.:lu
+10: E3/4.:lu G3/8:oh B3/8 E4/8
+11: D4/4.:This, D4/4:this D4/8:is
+12: D4/4:Christ A3/8:the F3/4:King A3/8:whom
+13: B3/4:shep- G3/8:-herds E3/8.:guard F3/16 G3/8:and
+14: B3/4:an- F3/8:-gels B3/4.:sing.
+15: D4/4.:Haste, D4/4:haste D4/8:to
+16: C#4/4:bring A3/8:him F3/4:laud A3/8:the
+17: G3/4:babe G3/8:the F3/4:Son F3/8:of
+18: G3/4.:Ma- G3/4.:-ry.
+key: -4
+19: r/2.
+20: r/2.
+21: r/2.
+22: r/2.
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/4. r/8 r/8 F3/8:So
+27: A3/4:bring B3/8:Him C4/8.:in- D4/16 C4/8:-cense,
+28: B3/4:gold, G3/8:and E3/8.:myrrh, F3/16 G3/8:ooh
+29: F3/4. A3/4.
+30: G3/4.~ G3/4 F3/8:The
+31: C4/4:King B3/8:of A3/8.:kings B3/16 C4/8:sal-
+32: E4/4:-va- B3/8:-tion G3/8.:brings A3/16 B3/8:ooh
+33: F3/4. G3/4.
+34: A3/4. A3/4.
+35: E4/4.:Raise, E4/8.:raise Dn4/16 C4/8:the
+36: B3/4:song B3/8:on G3/4:high G3/8:ooh
+37: A3/4. A3/4.
+38: G3/4. C4/4.
+39: E4/4.:Joy, E4/8.:joy Dn4/16 C4/8:for
+40: B3/4:Christ B3/8:is G3/8.:born A3/16 B3/8:the
+41: C4/8.:Babe, B3/16 A3/8:the G3/8:Son F3/8 G3/8:of
+42: A3/4.:Ma- A3/4.!:-ry.

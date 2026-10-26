@@ -1,0 +1,127 @@
+title: Candlelight Carol
+composer: John Rutter
+part: Bass
+key: -6
+time: 3/4
+tempo: 92
+text: Andante con moto
+spelling: page
+# Intro (organ)
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+# Verse 1: SOPRANOS (and ALTOS) only - men tacet
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+9: r/2.
+10: r/2.
+11: r/2.
+12: r/2.
+13: r/2.
+14: r/2.
+15: r/2.
+16: r/2.
+17: r/2.
+18: r/2.
+19: r/2.
+20: r/2.
+# Refrain (verse 1, unaccompanied): Bass 1 staff (Bass 2 staff crossed out in pencil)
+21: Cb4/4.:Can- Bb3/8:-dle- Ab3/4:light,
+22: Bb3/4.:an- Ab3/8:-gel Gb3/4:light,
+23: Cb4/4:fire- Cb4/8:-light Bb3/8 Ab3/4:and
+24: Db4/4:star- Bb3/2:-glow
+25: Cb4/4:Shine Cb4/4:on Cb4/4:his
+26: Bb3/4:cra- Bb3/4:-dle Bb3/4:till
+27: Bb3/8:break- Ab3/8 Gb3/4:-ing Ab3/4:of
+28: Ab3/4:dawn. Db4/2
+29: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
+30: Db4/2.:-a
+31: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
+32: Cb4/4.:De- Ab3/8 Bb3/4:-o!
+33: Gb3/4:An- Cb4/8:-gels Bb3/8 Ab3/4:are
+34: Bb3/4:sing- Bb3/4:-ing; Gb3/4:the
+35: Gb3/4~:child Gb3/4 F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
+# 1st ending (T.B. staff, bass divides on one stem)
+36: Gb2+Db3/2.:born.
+37: r/2.
+38: r/2.
+39: r/2.
+40: r/2.
+# Verse 2: TENORS (and BASSES) in unison on the treble-8 voice staff (followed at sounding pitch)
+41: Db3/4:Shep- Gb3/4:-herds F3/4:and
+42: Gb3/4:wise Ab3/4:men Bb3/4:will
+43: Cb3/2:kneel Ab3/8:and Gb3/8:a-
+44: F3/4:-dore Db3/2:him,
+45: Db3/4:Se- Gb3/4:-ra- F3/4:-phim
+46: Gb3/4:round Ab3/4:him Bb3/4:their
+47: Cb4/4.:vi- Cb4/8:-gil Db4/4:will
+48: Ab3/2.:keep;
+49: Ab3/4:Na- Db4/4:-tions Cb4/4:pro-
+50: Db4/4:-claim Eb4/4:him F4/4:their
+51: Gb3/2:Lord Ab3/8:and Bb3/8:their
+52: Bb3/8:Sa- Cb4/8 Ab3/4.:-viour, Gb3/8:But
+53: Ab3/4:Ma- Db4/4:-ry Bb3/4:will
+54: Cb4/4:hold Gb3/4.:him Cb4/8:and
+55: Bb3/4:sing Db3/4.:him Ab3/8:to
+56: Gb3/2.:sleep.
+# Refrain (verse 2, accompanied): Bass 1
+57: Cb4/4.:Can- Bb3/8:-dle- Ab3/4:light,
+58: Bb3/4.:an- Ab3/8:-gel Gb3/4:light,
+59: Cb4/4:fire- Cb4/8:-light Bb3/8 Ab3/4:and
+60: Db4/4:star- Bb3/2:-glow
+61: Cb4/4:Shine Cb4/4:on Cb4/4:his
+62: Bb3/4:cra- Bb3/4:-dle Bb3/4:till
+63: Bb3/8:break- Ab3/8 Gb3/4:-ing Ab3/4:of
+64: Ab3/4:dawn. Db4/2
+65: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
+66: Db4/2.:-a
+67: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
+68: Cb4/4.:De- Ab3/8 Bb3/4:-o!
+69: Gb3/4:An- Cb4/8:-gels Bb3/8 Ab3/4:are
+70: Bb3/4:sing- Bb3/4:-ing; Gb3/4:the
+71: Gb3/4~:child Gb3/4 F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
+# 2nd ending
+72: Gb2+Db3/2.:born.
+# Verse 3 (SATB, T.B. share a staff: bass = stems down)
+73: r/2.
+74: r/2.
+75: Gb3/4:Find Gb3/4:him Gb3/4:at
+76: Gb3/4:Beth- Gb3/4:-le- Gb3/4:-hem
+77: Gb3/2:laid Gb3/8:in Gb3/8:a
+78: Gb3/2:man- Gb3/4:-ger:
+79: Gb3/4:Christ Gb3/4:our Ab3/4:Re-
+80: Eb3/4:-deem- F3/4:-er Gb3/4:a-
+81: Ab3/4.:-sleep Ab3/8:in Gb3/4:the
+82: F3/2:hay, Eb3/4
+83: Db3/4:God- Db3/4:-head Db3/4:in-
+84: Bb2/4:-car- Bb2/4:-nate Bb3/4:and
+85: Eb3/2:hope Eb3/8:of Eb3/8:sal-
+86: Ab3/4:-va- Ab3/4:-tion: Gb3/4
+# A.T.B. Hum (soprano sings "A child with his mother that first Christmas Day")
+87: Fb3/2.:Oo   # printed "Hum"; the choir sings "oo"
+88: Eb3/2 Gb3/4~   # lower divisi note Ab2 crossed out in pencil
+89: Gb3/2 F3/4     # lower divisi note crossed out in pencil
+90: Gb2+Db3/2.
+# [E] men unis., melody
+91: Cb4/8:Can- Db4/8:-dle- Eb4/2:light,
+92: Db4/8:an- Cb4/8:-gel Bb3/2:light,
+93: Ab3/8:fire- Bb3/8 Gb3/4:-light Ab3/4:and
+94: Bb3/4:star- Db4/2:-glow
+95: Cb4/4:Shine Db4/4:on Eb4/4:his
+96: Db4/4:cra- Bb3/4:-dle Ab3/4:till
+97: Gb3/4:break- Bb3/4:-ing Cn4/4:of
+98: Db4/2.:dawn.
+# Final Gloria: Bass 1 staff (Bass 2 crossed out)
+99: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
+100: Db4/2.:-a
+101: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
+102: Cb4/4.:De- Ab3/8 Bb3/4:-o!
+103: Gb3/4:Oo Cb4/8 Bb3/8 Ab3/4   # printed "Hum"; the choir sings "oo"
+104: Bb3/2 Gb3/4
+105: Gb3/2 F3/4
+text: rall.
+106: Db3/2.~
+107: Db3/2.!

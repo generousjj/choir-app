@@ -1,0 +1,139 @@
+title: The First Noel
+composer: arr. Don Neufeld (Kensington Choralworks, 2006)
+part: Tenor
+key: 0
+time: 3/4
+tempo: 80
+text: Misterioso
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+9: r/2.
+10: r/2.
+time: 4/4
+11: r/1
+time: 3/4
+12: r/2.
+13: r/2.
+14: r/2 E3/8:The D3/8
+15: C3/4.:First D3/8 E3/8:No- F3/8
+16: G3/2:-el A3/8:the B3/8
+17: C4/4:An- B3/4:-gel A3/4:did
+18: G3/2:say A3/8:was B3/8:to
+19: C4/4:cer- B3/4:-tain A3/4:poor
+20: G3/4:shep- A3/4:-herds B3/4:in
+21: C4/4:fields G3/4:as F3/4:they
+time: 4/4
+22: E3/2.:lay; r/4
+time: 3/4
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/2.
+27: r/2.
+28: r/2.
+29: r/2.
+44p: E4/8:They D4/8
+45: C4/2:look- C4/4:-ed
+46: B3/2:up B3/4:and
+47: A3/4:saw G3/4 F3/4:a
+48: E3/2:star F3/8:shin- G3/8:-ing
+49: A3/4:in B3/4 C4/4:the
+50: D4/4:East, C4/4 B3/4:be-
+51: A3/4:-yond B3/4 D4/4:them
+time: 4/4
+52: C4/2:far. r/2
+time: 3/4
+53: r/4 C4/2:Oo
+54: C4/4 F4/2
+55: r/4 C4/2:Oo
+56: C4/4 F4/2
+57: r/2.
+58: r/2.
+59: r/4 C4/4:day C4/4:and
+time: 4/4
+60: C4/2.:night. E4/8:No- D4/8
+time: 3/4
+61: C4/4.:-el! D4/8:No- C4/8 D4/8
+62: D4/4:-el! C4/2
+63: C4/2:No- C4/4:-el!
+64: C4/4:No- C4/4:-el! E3/8:(For G3/8
+65: A3/4:Born D4/4:is C4/4:the
+66: C4/2:King G3/4:of
+67: A3/2:Is- B3/4:-ra-
+68: C#4/2:-el! r/4
+key: 2
+spelling: page
+69: r/2.
+70: r/2.
+71: r/2.
+72: D4/4:This C4/4:star B3/4:drew
+73: A3/2:nigh G3/8:to A3/8
+74: B3/4~:the B3/4 D4/4:north-
+75: D4/4:-west; C4/4 G3/4~:o'er
+76: G3/4 G3/4:Beth- D4/4:-le-
+77: B3/2:-hem, B3/4:it
+78: B3/4:took B3/4 E4/4:its
+79: D4/2:rest. F3/8:And E3/8
+80: A3/2:those D4/4:who
+81: D4/4:fol- D4/2:-lowed
+82: D4/4:that E4/4 D4/4:great
+83: D4/2:light D4/8:found E4/8:the
+84: E4/4:child, E4/4:Christ D4/4:the
+85: A3/4:King, D4/4:who E4/4:was
+86: D4/4:born A3/4 B3/4:that
+87: A3/2:night. A3/4:No-
+88: B3/4:-el! A3/4 A3/4:No-
+89: E4/4:-el! D4/2
+90: D4/4:No- D4/2:-el!
+91: D4/4:No- D4/4:-el! F3/8:(For A3/8
+92: B3/4:Born E4/4:is D4/4:the
+93: D4/2:King A3/4:of
+94: B3/2:Is- C4/4:-ra-
+95: A#3/2:-el! r/4
+96: r/2 G3/8:Then Fn3/8
+key: -3
+97: Eb3/4.:let F3/8 G3/8:us Ab3/8
+98: Bb3/2:all, C4/8:with D4/8
+99: Eb4/4:one D4/4 C4/4:ac-
+100: Bb3/2:-cord, C4/8:sing D4/8
+101: Eb4/4:prais- D4/4 C4/4:-es
+102: Bb3/4:to C4/4 D4/4:our
+103: Eb4/4:Heav'n- Bb3/4 Ab3/4:-ly
+104: G3/2:Lord. r/4
+text: Majestic
+105: Eb4/4:of- D4/4 C4/4:-fer
+106: Bb3/2:gifts Eb4/8:of D4/8
+107: Eb4/4:wor- D4/4:-ship C4/4:and
+108: Bb3/2:love Ab3/8:to Bb3/8
+109: C4/4:Him Bb3/4 Ab3/4:sent
+110: G3/4:down Ab3/4 Bb3/4:from
+111: Bb3/2:Heav'n C4/4:a-
+112: Bb3/2:-bove. G3/8:No- F3/8
+113: Eb3/4.:-el! F3/8 G3/8:No- Ab3/8
+114: Bb3/2:-el! Bb3/4:No-
+115: Eb4/4.:-el! D4/8 Eb4/8:No- F4/8
+116: G4/2:-el! F4/4
+time: 4/4
+117: r/4 Eb4/4:Born D4/4:is C4/4:the
+118: Bb3/1:King!
+119: r/4 Eb4/4:Born D4/4:is D4/4:the
+120: Bb3/1:King!
+121: Eb4/2:Born D4/4:is Eb4/4:the
+text: ff, rall.
+tempo: 66
+122: Eb4/2.:King G4/4:of
+123: F4/1~:Is-
+124: F4/2. Eb4/4:-ra-
+text: sub. a tempo
+tempo: 80
+125: Eb4/1:-el!
+126: r/4 Eb4/4:Born Eb4/4:is Eb4/4:the
+127: Eb4/1~:King!
+text: rit.
+128: Eb4/1!

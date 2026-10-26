@@ -1,0 +1,39 @@
+--- a/Engine/mbrola.c
++++ b/Engine/mbrola.c
+@@ -345,6 +345,36 @@
+ 	Length1(cur_diph(mb)) = (int) (wanted_len * (float) Freq(diph_dba(mb)) / 1000.0f - 
+ 								   Length2(prev_diph(mb))) ;
+ 
++	/*
++	 * choir-practice patch (singing): a sung phone is often far longer than
++	 * its two recorded halves. Give the extra time to the halves in
++	 * proportion to their steady voiced frames instead of their recorded
++	 * length: some units have no steady frame in one half (us3 "s-I" has
++	 * only frication and transition frames on its I side), and stretching
++	 * those turns a long "sing" into half a second of hiss before the vowel.
++	 */
++	{
++		int P = MBRPeriod(diph_dba(mb));
++		float want = wanted_len * (float) Freq(diph_dba(mb)) / 1000.0f;
++		int sl = 0, sr = 0, j;
++		for (j = 1; j <= nb_frame_diphone(prev_diph(mb)) && j <= NBRE_PM_MAX; j++)
++		{
++			int ty = pmrk_DiphoneSynthesis(prev_diph(mb), j);
++			if (j * P > halfseg_diphone(prev_diph(mb)) && (ty & VOICING_MASK) && !(ty & TRANSIT_MASK)) sl++;
++		}
++		for (j = 1; j <= nb_frame_diphone(cur_diph(mb)) && j <= NBRE_PM_MAX; j++)
++		{
++			int ty = pmrk_DiphoneSynthesis(cur_diph(mb), j);
++			if (j * P <= halfseg_diphone(cur_diph(mb)) && (ty & VOICING_MASK) && !(ty & TRANSIT_MASK)) sr++;
++		}
++		if (want > (float) tot_len && sl + sr > 0)
++		{
++			float extra = want - (float) tot_len;
++			Length2(prev_diph(mb)) = (int) (len_left + extra * sl / (float) (sl + sr));
++			Length1(cur_diph(mb)) = (int) (want - Length2(prev_diph(mb)));
++		}
++	}
++
+ 	debug_message3("done NextDiphone PHO_OK -> %s-%s\n",
+ 				   name_Phone(RightPhone(prev_diph(mb))),
+ 				   name_Phone(my_phone));

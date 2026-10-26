@@ -1,0 +1,102 @@
+title: Angels We Have Heard On High
+composer: arr. Jack Eskew and Bruce Healey
+part: Soprano
+key: 3
+time: 4/4
+tempo: 144              # printed: half note = 72
+spelling: page
+1: r/1
+2: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+3: D5/2 E5/8 D5/8 C5/8 B4/8
+4: C5/2 D5/8 C5/8 B4/8 A4/8
+5: B4/4. E4/8:-ri- E4/2:-a
+6: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+7: C5/2:De- B4/2:-o!
+8: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+9: D5/2 E5/8 D5/8 C5/8 B4/8
+10: C5/2 D5/8 C5/8 B4/8 A4/8
+11: B4/4. E5/8:-ri- E5/2:-a
+12: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+13: C5/2:De- B4/2:-o!
+14: A4/1~:O!
+15: A4/1
+16: r/1
+17: r/1
+17a: r/1
+17b: r/1
+key: -1
+18: A4/4:An- A4/4:-gels A4/4:we C5/4:have
+19: C5/4.:heard B4/8:on A4/2:high
+20: A4/4:Sweet- G4/4:-ly A4/4:sing- C5/4:-ing
+21: A4/4.:o'er G4/8:the F4/2:plains
+22: A4/4:And A4/4:the A4/4:moun- C5/4:-tains
+23: C5/4.:in B4/8:re- A4/2:-ply
+24: A4/4:Ech- G4/4:-o- A4/4:-ing C5/4:their
+25: A4/4.:joy- G4/8:-ful F4/2:strains
+26: A4/8:Glo- B4/8 A4/8 G4/8 F4/2
+27: G4/8 A4/8 G4/8 F4/8 E4/2~
+28: E4/8 G4/8 F4/8 E4/8 D4/2
+29: E4/4. G4/8:-ri- G4/2:-a
+30: F4/4:in G4/4:ex- A4/4:-cel- B4/4:-sis
+31: A4/2:De- G4/2:-o!
+32: r/8 A4/8:Glo- B4/8 C5/8 F#4/2~
+33: F#4/8 G4/8 A4/8 B4/8 E4/2~
+34: E4/8 Fn4/8 G4/8 A4/8 D4/2
+35: E4/4. G4/8:-ri- G4/2:-a
+36: F4/4:in G4/4:ex- A4/4:-cel- B4/4:-sis
+37: A4/2:De- G4/2:-o!
+38: F4/1~:O!
+39: F4/1
+39a: r/1
+39b: r/1
+key: -4
+40: E4/4:Ooh C4/4 A4/4 E4/4
+41: C5/4. B4/8 A4/4 E4/4
+42: F4/4 F4/4 E4/4 A4/4
+43: E4/4. D4/8 C4/2
+44: E4/4:Ooh C4/4 A4/4 E4/4
+45: C5/4. B4/8 A4/4 G4/4
+46: A4/4 G4/4 A4/4 E4/4
+47: F4/4. G4/8 A4/2
+48: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+49: D5/2 E5/8 D5/8 C5/8 B4/8
+50: C5/2 D5/8 C5/8 B4/8 A4/8
+51: B4/4. E4/8:-ri- E4/2:-a
+52: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+53: C5/2:De- B4/2:-o!
+54: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+55: D5/2 E5/8 D5/8 C5/8 B4/8
+56: C5/2 D5/8 C5/8 B4/8 A4/8
+57: B4/4. E5/8:-ri- E5/2:-a
+58: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+59: C5/2:De- B4/2
+text: poco allargando
+60: A4/2:-o! r/2
+61: r/1
+key: 3
+tempo: 144
+text: A Tempo
+62: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+63: D5/2 E5/8 D5/8 C5/8 B4/8
+64: C5/2 D5/8 C5/8 B4/8 A4/8
+65: B4/4. E4/8:-ri- E4/2:-a
+66: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+67: C5/2:De- B4/2:-o!
+68: E5/2:Glo- F5/8 E5/8 D5/8 C5/8
+69: D5/2 E5/8 D5/8 C5/8 B4/8
+70: C5/2 D5/8 C5/8 B4/8 A4/8
+tempo: 120
+text: Ritard
+71: B4/4. E5/8:-ri- E5/2:-a
+tempo: 104
+text: Allargando
+72: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+73: B4/4:De- A4/4 G4/2:-o!
+74: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+75: D5/4:De- C5/4 B4/2:-o!
+tempo: 84
+text: Molto Ritard
+76: A4/4:in B4/4:ex- C5/4:-cel- D5/4:-sis
+77: C5/4:De- D5/4 E5/2
+78: C5+E5/1~:-o!
+79: C5+E5/1!

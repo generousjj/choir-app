@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<score-partwise version="3.1">
+ <work><work-title>Test Fixture</work-title></work>
+ <part-list><score-part id="P1"><part-name>Women</part-name></score-part><score-part id="P2"><part-name>Tenor</part-name></score-part></part-list>
+ <part id="P1">
+  <measure number="1">
+   <attributes><divisions>2</divisions><time><beats>2</beats><beat-type>4</beat-type></time></attributes>
+   <direction><sound tempo="120"/></direction>
+   <barline location="left"><repeat direction="forward"/></barline>
+   <note><pitch><step>E</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>begin</syllabic><text>Ve</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>Glo</text></lyric></note><note><pitch><step>F</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>end</syllabic><text>ni</text></lyric><lyric number="2"><syllabic>middle</syllabic><text>ri</text></lyric></note>
+   <backup><duration>4</duration></backup>
+   <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>2</voice><lyric number="1"><syllabic>single</syllabic><text>Come</text></lyric></note>
+  </measure>
+  <measure number="2">
+   <barline location="left"><ending number="1" type="start"/></barline>
+   <note><pitch><step>G</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><tie type="start"/><lyric number="1"><syllabic>single</syllabic><text>one</text></lyric><lyric number="2"><syllabic>end</syllabic><text>a</text></lyric></note>
+   <backup><duration>4</duration></backup>
+   <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>2</voice><lyric number="1"><syllabic>single</syllabic><text>now</text></lyric></note>
+   <barline location="right"><ending number="1" type="stop"/><repeat direction="backward"/></barline>
+  </measure>
+  <measure number="3">
+   <barline location="left"><ending number="2" type="start"/></barline>
+   <note><pitch><step>G</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>single</syllabic><text>glo_and</text></lyric></note><note><pitch><step>A</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice></note>
+   <backup><duration>4</duration></backup>
+   <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice><lyric number="1"><syllabic>single</syllabic><text>end</text></lyric></note>
+   <barline location="right"><ending number="2" type="discontinue"/></barline>
+  </measure>
+  <measure number="4">
+   <note><pitch><step>G</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><lyric number="1"><syllabic>single</syllabic><text>Amen</text></lyric></note>
+   <backup><duration>4</duration></backup>
+   <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>2</voice><lyric number="1"><syllabic>single</syllabic><text>Amen</text></lyric></note>
+  </measure>
+ </part>
+ <part id="P2">
+  <measure number="1"><attributes><divisions>1</divisions><transpose><chromatic>0</chromatic><octave-change>-1</octave-change></transpose></attributes>
+   <note><pitch><step>C</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>single</syllabic><text>Come</text></lyric></note></measure>
+  <measure number="2"><note><pitch><step>E</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>single</syllabic><text>now</text></lyric></note></measure>
+  <measure number="3"><note><pitch><step>D</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><lyric number="1"><syllabic>single</syllabic><text>end</text></lyric></note></measure>
+  <measure number="4"><note><chord/></note><note><pitch><step>C</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><lyric number="1"><syllabic>begin</syllabic><text>A</text></lyric></note><note><chord/><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice></note><note><pitch><step>C</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><lyric number="1"><syllabic>end</syllabic><text>men</text></lyric></note></measure>
+ </part>
+</score-partwise>

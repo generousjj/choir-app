@@ -1,0 +1,144 @@
+title: We Three Kings
+composer: arr. Jack Eskew & Bruce Healey
+part: Alto
+key: -2                 # G minor
+time: 3/8
+tempo: 90               # printed: dotted quarter = 60, "In One"
+text: In One
+spelling: page
+1: r/4.
+2: r/4.
+3: r/4.
+4: r/4.
+5: r/4.
+6: r/4.
+7: r/4.
+8: r/4.
+9: r/4.
+10: r/4.
+11: r/4.
+12: r/4.
+13: r/4.
+14: r/4.
+15: r/4.
+16: r/4.
+17: r/4.
+18: r/4.
+19: r/4.
+20: r/4.
+21: r/4.
+22: r/4.
+23: A4/4.:Oh
+24: A4/4.
+25: F4/4:Star F4/8:of
+26: F4/4:won- D4/8:-der
+27: G4/4:star Eb4/8:of
+28: F4/4.:nite
+29: F4/4:Star F4/8:with
+30: F4/4:roy- D4/8:-al
+31: G4/4:beau- Eb4/8:-ty
+32: F4/4.:bright
+33: G4/4:West- G4/8:-ward
+34: A4/4:lead- A4/8:-ing
+35: G4/4:still G4/8:pro-
+36: A4/4:-ceed- A4/8:-ing
+37: Bb4/4:Guide G4/8:us
+38: F4/4:to D4/8:thy
+39: G4/4:per- Eb4/8:-fect
+40: F4/4.~:light
+41: F4/4.~
+42: F4/4.~
+43: F4/4.
+44: r/4.
+45: r/4.
+46: r/4.
+47: r/4.
+48: r/4.
+49: r/4.
+50: r/4.
+51: r/4.
+52: r/4.
+53: r/4.
+54: r/4.
+55: r/4.
+key: -5                 # B-flat minor from m56
+text: mp
+56: r/4.
+57: Bb4/4:Born F4/8:a
+58: F4/4:king Eb5/8:on
+59: Db5/8:Beth- C5/8:-le- Ab4/8:-hem's
+60: Bb4/4.:plain
+61: Bb4/4:Gifts F4/8:we
+62: F4/4:bring Eb5/8:to
+63: Db5/8:crown C5/8:him Ab4/8:a
+64: F4/4:King F4/8:for-
+65: Eb4/4:-e- Eb4/8:-ver
+66: F4/4:ceas- F4/8:-ing
+67: Ab4/8:ne- Gb4/8 F4/8:-ver
+68: r/4.
+69: r/4.
+70: Eb4/8:O- F4/8:-ver Eb4/8:us
+71: Db4/4:all C4/8:to
+72: Bb3/4.~:reign
+73: Bb3/4.
+74: r/4.
+75: r/4.
+76: r/4.
+77: r/4.
+key: -2                 # back to 2 flats (B-flat major refrain)
+text: f
+78: F4/4:Star F4/8:of
+79: F4/4:won- D4/8:-der
+80: G4/4:star Eb4/8:of
+81: F4/4.:nite
+82: F4/4:Star F4/8:with
+83: F4/4:roy- D4/8:-al
+84: G4/4:beau- Eb4/8:-ty
+85: F4/4.:bright
+86: G4/4:West- G4/8:-ward
+87: A4/4:lead- A4/8:-ing
+88: G4/4:still G4/8:pro-
+89: A4/4:-ceed- A4/8:-ing
+90: Bb4/4:Guide G4/8:us
+91: F4/4:to D4/8:thy
+92: G4/4:per- Eb4/8:-fect
+93: F4/4.~:light
+94: F4/4.~
+95: F4/4.~
+96: F4/4.
+97: r/4.
+98: r/4.
+99: r/4.
+100: r/4.
+text: mp
+5a: r/4.
+6a: r/4.
+7a: r/4.
+8a: r/4.
+9a: r/4.
+10a: r/4.
+11a: r/4.
+12a: r/4.
+13a: r/4.
+14a: r/4.
+15a: r/4.
+16a: r/4.
+17a: r/4.
+18a: r/4.
+19a: r/4.
+20a: r/4.
+21a: r/4.
+22a: r/4.
+text: Rubato
+101: r/4.
+102: C5/8:Fol- D5/8:-low- Eb5/8:-ing
+103: Bb4/4.:yon-
+104: A4/4.:-der
+105: G4/4.~:star
+106: G4/4.~
+107: G4/4.~
+108: G4/4.~
+text: Ritard
+109: G4/4.~
+110: G4/4.~
+111: G4/4.!

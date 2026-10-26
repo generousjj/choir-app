@@ -1,0 +1,98 @@
+title: Joy To The World
+composer: arr. Peter Knight, adapted by Bob Krogstad
+part: Bass
+key: -1
+time: 4/4
+tempo: 108              # no metronome mark; "Brightly" -> 108 chosen
+text: Brightly
+spelling: page
+# Intro: bars A and B (numbered 0a, 0b here), then 1-8 orchestra only
+0a: r/1
+0b: r/1
+1: r/1
+2: r/1
+3: r/1
+4: r/1
+5: r/1   # segno (in choir & orch. parts)
+6: r/1
+7: r/1
+8: r/1
+# Verse 1 - T/B share a staff; lowest note taken
+9: F3/4:Joy F3/8.:to F3/16:the F3/4.:world! Bb2/8:The
+10: C3/4:Lord C3/4:is F3/4:come! r/8 A2/8:Let
+11: Bb2/4.:earth Bb2/8:re- C3/4.:-ceive C3/8:her
+12: F3/2.:King; r/8 A3/8:Let
+13: A3/8:ev'- C4/8 Bb3/8:-ry A3/8 A3/8.:heart G3/16 F3/8 A3/8:pre-
+14: A3/8:-pare C4/8 Bb3/8:him A3/8 A3/8.:room, G3/16 F3/8 r/8
+15: F3/8:heav'n F3/8:and F3/8:na- F3/16:-ture G3/16 A3/4.:sing, G3/16:And F3/16
+16: F3/8:heav'n F3/8:and F3/8:na- F3/16:-ture F#3/16 G3/4.:sing, Fn3/16:And E3/16
+17: F3/8:heav'n G3/4 Bb3/8:and A3/8.:heav'n Ab3/16 G3/8 F#3/8:and
+time: 2/4
+18: F3/4:na- F3/8:-ture E3/8
+time: 4/4
+19: F3/2:sing r/2
+# Interlude 20-27 (key change to D at 24), women alone 28-33
+20: r/1
+21: r/1
+22: r/1
+23: r/1
+key: 2
+24: r/1
+25: r/1
+26: r/1
+27: r/1
+28: r/1   # women in unison (verse 2), men tacet
+29: r/1
+30: r/1
+31: r/1
+32: r/1
+33: r/1
+34: r/1
+35: r/2 r/4 r/8 D3/8:Re-   # pencil star at the men's entrance
+36: D3/8:-peat D3/8:the D3/8:sound- D3/16:-ing E3/16 F#3/4.:joy, E3/16:Re- D3/16
+37: A2/8:-peat A2/8:the A2/8:sound- A2/16:-ing D3/16 E3/4.:joy, A2/8:Re-
+38: D3/8:-peat, B3/4 G3/8:re- F#3/8.:-peat E3/16 D3/8 B2/8:the   # syllables placed as printed under the women's line
+39: A2/4:sound- A2/4:-ing D3/2:joy.
+# Interlude 40-43, then D.S. (written out in the piano vocal as 5A-8A, back in F)
+40: r/1
+41: r/1
+42: r/1
+43: r/1
+key: -1
+5a: r/1
+6a: r/1
+7a: r/1
+8a: r/1
+# Verse 3 (9A-17A = same music as 9-17)
+9a: F3/4:He F3/8.:rules F3/16:the F3/4.:world Bb2/8:with
+10a: C3/4:truth C3/4:and F3/4:grace, r/8 A2/8:And
+11a: Bb2/4.:makes Bb2/8:the C3/4.:na- C3/8:-tions
+12a: F3/2.:prove r/8 A3/8:The
+13a: A3/8:glo- C4/8 Bb3/8:-ries A3/8 A3/8.:of G3/16 F3/8 A3/8:his
+14a: A3/8:right- C4/8 Bb3/8:-eous- A3/8 A3/8.:-ness, G3/16 F3/8 r/8
+15a: F3/8:Won- F3/8:-ders F3/8:of F3/16:his G3/16 A3/4.:love, G3/16:and F3/16
+16a: F3/8:won- F3/8:-ders F3/8:of F3/16:his F#3/16 G3/4.:love, Fn3/16:and E3/16
+17a: F3/8:won- G3/4 Bb3/8:-ders A3/8.:won- Ab3/16 G3/8 F#3/8:-ders
+# Coda (choir & orch. parts jump here from 17)
+44: F3/2:Of F3/4:his E3/4
+45: F3/2:love r/2
+46: r/1
+47: r/1
+48: r/1
+49: r/1
+50: r/1
+51: r/1
+52: r/1
+53: r/1
+54: C4/1:Joy            # men in unison
+55: D4/1:Joy            # breath mark after
+56: D4/1:Joy            # men divide: F4 over D4, lower taken
+57: C4/1~:Joy           # F4 over C4
+58: C4/1~               # printed vowel "Ê" here
+59: C4/2. r/4
+60: F3/1~:Joy!          # F4 / C4 / F3 chord
+61: F3/1~               # "Ê"
+62: F3/1~
+63: F3/1~
+64: F3/1~
+65: F3/8 r/8 r/4 r/2

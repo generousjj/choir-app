@@ -1,0 +1,52 @@
+title: What Child Is This? (Duet Version)
+composer: arr. Whitcomb rev. Healey
+part: Bass
+key: 1
+time: 6/8
+tempo: 72               # no metronome mark printed; chosen (dotted quarter = 48)
+spelling: page
+# Pages: B-008 right page (p.1, m1-12), B-009 left (p.2, m13-30) and right (p.3, m31-42).
+# Choir T/B staff; bass = lower note / down-stem voice throughout.
+1: r/2.    # handbells
+2: r/2.    # solo female enters
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: E3/2.:lu         # tenor B3
+8: D3/2.:lu         # tenor A3
+9: C3/4.:lu B2/4.:lu
+10: E3/4.:lu E3/8:oh G3/8 B3/8
+11: B3/4.:This, G3/4:this G3/8:is      # tenor D4 D4 D4
+12: D3/4:Christ D3/8:the B2/4:King B2/8:whom
+13: E3/4:shep- E3/8:-herds A2/4:guard A2/8:and
+14: B2/4:an- B2/8:-gels B3/4.:sing.    # B3 notehead shared with tenor (two stems)
+15: B3/4.:Haste, G3/4:haste G3/8:to
+16: F3/4:bring F3/8:him B2/4:laud B2/8:the
+17: C3/4:babe C3/8:the B2/4:Son B2/8:of
+18: E3/4.:Ma- E3/4.:-ry.
+key: -4
+19: r/2.   # 7-bar multirest m19-25 (key change to 4 flats)
+20: r/2.
+21: r/2.
+22: r/2.
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/4. r/8 r/8 F3/8:So
+27: Ab3/4:bring B3/8:Him C4/8.:in- D4/16 C4/8:-cense,   # T/B in unison here (single line, both stems)
+28: B3/4:gold, G3/8:and E3/8.:myrrh, F3/16 G3/8:ooh
+29: F3/4. B2/4.        # F3 shared with tenor; tenor Ab3 on beat 2
+30: C3/4.~ C3/4 F3/8:The
+31: F3/4:King G3/8:of A3/4:kings A3/8:sal-
+32: E3/4:-va- E3/8:-tion E3/4:brings E3/8:ooh
+33: B2/4. C3/4.
+34: F3/4. F3/4.
+35: C4/4.:Raise, A3/4:raise A3/8:the     # tenor Eb4 Eb4 C4
+36: E3/4:song E3/8:on C3/4:high C3/8:ooh
+37: F3/4. B2/4.
+38: C3/4. G3/4.
+39: C4/4.:Joy, A3/4:joy A3/8:for
+40: G3/4:Christ G3/8:is C3/4:born C3/8:the
+41: D3/4:Babe, D3/8:the C3/4:Son C3/8:of
+42: F2/4.:Ma- F2/4.!:-ry.

@@ -1,0 +1,52 @@
+title: What Child Is This? (Duet Version)
+composer: arr. Whitcomb rev. Healey
+part: Alto
+key: 1
+time: 6/8
+tempo: 72               # no metronome mark printed; chosen (dotted quarter = 48)
+spelling: page
+# Pages: B-008 right page (p.1, m1-12), B-009 left (p.2, m13-30) and right (p.3, m31-42).
+# SA staff: alto = lower / down-stem voice.
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: E4/2.:lu
+8: D4/2.:lu
+9: C4/4.:lu B3/4.:lu
+10: E4/4.:lu E4/4:oh G4/8
+11: F4/4.:This, B4/8.:this A4/16 G4/8:is
+12: F4/4:Christ D4/8:the B3/8.:King C#4/16 D4/8:whom
+13: E4/4:shep- B3/8:-herds C4/4:guard C4/8:and
+14: D#4/4:an- B3/8:-gels B3/4.:sing.
+15: F4/4.:Haste, B4/8.:haste A4/16 G4/8:to
+16: F4/4:bring C#4/8:him B3/8.:laud C4/16 D#4/8:the
+17: E4/8.:babe D4/16 C4/8:the B3/8.:Son A3/16 B3/8:of
+18: B3/4.:Ma- B3/4.:-ry.
+key: -4
+19: r/2.
+20: r/2.
+21: r/2.
+22: r/2.
+23: r/2.
+24: r/2.
+25: r/2.
+26: r/4. r/8 r/8 F4/8:So
+27: A4/4:bring B4/8:Him C5/8.:in- D5/16 C5/8:-cense,
+28: B4/4:gold, G4/8:and E4/8.:myrrh, F4/16 E4/8:ooh
+29: C4/4. D4/4.
+30: F4/4 En4/8 E4/4 F4/8:The
+31: F4/4:King E4/8:of E4/4:kings E4/8:sal-
+32: G4/4:-va- E4/8:-tion E4/4:brings E4/8:ooh
+33: D4/4. C4/4.
+34: C4/4. C4/4.
+35: G4/4.:Raise, A4/4:raise E4/8:the
+36: E4/4:song E4/8:on C4/8.:high Dn4/16 E4/8:ooh
+37: C4/4. D4/4.
+38: C4/4. En4/4.
+39: G4/4.:Joy, A4/4:joy E4/8:for
+40: Dn4/4:Christ D4/8:is C4/8.:born D4/16 E4/8:the
+41: F4/8.:Babe, E4/16 D4/8:the C4/8:Son B3/8 C4/8:of
+42: C4/4.:Ma- C4/4.!:-ry.

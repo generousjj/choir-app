@@ -1,0 +1,43 @@
+--- a/Engine/diphone.c	2026-10-21 07:34:54.115280640 +0000
++++ b/Engine/diphone.c	2026-10-21 08:11:12.022291126 +0000
+@@ -88,6 +88,24 @@
+ 	MBR_free(ds);
+ }
+ 
++/*
++ * choir-practice patch: carry the fractional part of the pitch period from
++ * one period to the next (error diffusion). Stock MBROLA truncates every
++ * period to whole samples, which makes notes up to ~25 cents sharp and turns
++ * vibrato/glides into audible steps; with the carry the mean period equals
++ * the requested one exactly.
++ */
++float mbr_period_residual = 0.0f; /* reset by the wasm entry point before every run */
++static int diffuse_period(float p)
++{
++	float q = p + mbr_period_residual;
++	int n = (int) q;
++	if (n < 1) n = 1;
++	mbr_period_residual = q - (float) n;
++	if (mbr_period_residual > 1.0f || mbr_period_residual < -1.0f) mbr_period_residual = 0.0f;
++	return n;
++}
++
+ int GetPitchPeriod(DiphoneSynthesis *dp, int cur_sample,int Freq)
+ /*
+  * Returns the pitch period (in samples) at position cur_sample 
+@@ -114,7 +132,7 @@
+ 		if (phon_time >= length_Phone(LeftPhone(dp)))
+ 		{
+ 			Phone *phon=LeftPhone(dp);
+-			return (int) ((float)Freq/freq_Pitch(tail_PitchPattern(phon)));
++			return diffuse_period((float)Freq/freq_Pitch(tail_PitchPattern(phon)));
+ 		}
+     }
+ 	else		/* Right part of the diphone */
+@@ -140,5 +158,5 @@
+ 			* (phon_time - work_phone->PitchPattern[i-1].pos);
+ 
+ 	debug_message1("done GetPitch\n");
+-	return( (int)((float)Freq / return_val) );
++	return diffuse_period((float)Freq / return_val);
+ }

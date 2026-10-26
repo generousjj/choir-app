@@ -1,0 +1,101 @@
+--- a/Engine/mbrola.c
++++ b/Engine/mbrola.c
+@@ -373,6 +373,10 @@
+ 	int len_anal;             /* Number of sample in last segment analysed   */
+ 	int start;
+ 	int old_len1;             /* Length1 in samples before adjustment */
++	/* choir-practice patch (singing): non-uniform time warping */
++	static float lim_tab[NBRE_PM_MAX + 2];
++	static char hold_tab[NBRE_PM_MAX + 2];
++#define HOLD_FRAMES 2
+   
+ 	debug_message1("MatchProsody\n");
+   
+@@ -408,6 +412,76 @@
+     }
+ 
+ 	/*
++	 * choir-practice patch: when a half-diphone must be LENGTHENED (sung
++	 * notes are far longer than speech), stock MBROLA stretches all its
++	 * frames uniformly, so the unvoiced burst/aspiration and the formant
++	 * transitions are stretched too (a long note starting "khhhh-ing", a
++	 * vowel sliding into the next consonant for half a second). Here the
++	 * unvoiced and transient frames keep their natural duration and only
++	 * the stable voiced frames absorb the extra time. Compression stays
++	 * uniform, exactly as before.
++	 */
++	{
++		int P = MBRPeriod(diph_dba(mb));
++		int half;
++		for (half = 0; half < 2; half++)
++		{
++			int first = -1, last = -1, nfix = 0, nstab = 0, j;
++			float target = half == 0 ? (float) Length1(prev_diph(mb)) : (float) Length2(prev_diph(mb));
++			float base = half == 0 ? 0.0f : (float) Length1(prev_diph(mb));
++			float natural, fs = 1.0f, uni, acc;
++			for (j = 1; j <= nb_frame && j <= NBRE_PM_MAX; j++)
++			{
++				int tt = j * P;
++				if ((half == 0) != (tt <= halfseg)) continue;
++				if (first < 0) first = j;
++				last = j;
++				{
++					int ty = pmrk_DiphoneSynthesis(prev_diph(mb), j);
++					if ((ty & VOICING_MASK) && !(ty & TRANSIT_MASK)) nstab++; else nfix++;
++				}
++			}
++			if (first < 0) continue;
++			natural = (float) ((last - first + 1) * P);
++			uni = natural > 0 ? target / natural : 1.0f;
++			/*
++			 * Hold the frames next to the phone's centre (the end of the
++			 * right half, the start of the left half): the steady part of
++			 * a vowel. Stretching every stable frame would also stretch
++			 * the recorded onset, where the vowel is still growing louder,
++			 * into a slow fade-in on long notes.
++			 */
++			{
++				int nhold = 0;
++				for (j = first; j <= last; j++) hold_tab[j] = 0;
++				for (j = half == 1 ? last : first; j >= first && j <= last && nhold < HOLD_FRAMES; j += half == 1 ? -1 : 1)
++				{
++					int ty = pmrk_DiphoneSynthesis(prev_diph(mb), j);
++					if (!((ty & VOICING_MASK) && !(ty & TRANSIT_MASK))) break;
++					hold_tab[j] = 1; nhold++;
++				}
++				if (nhold == 0)  /* no steady frame at the centre: any stable frame */
++					for (j = first; j <= last; j++)
++					{
++						int ty = pmrk_DiphoneSynthesis(prev_diph(mb), j);
++						if ((ty & VOICING_MASK) && !(ty & TRANSIT_MASK)) { hold_tab[j] = 1; nhold++; }
++					}
++				if (uni > 1.0f && nhold > 0)
++					fs = (target - (last - first + 1 - nhold) * P) / (float) (nhold * P);
++				acc = base;
++				for (j = first; j <= last; j++)
++				{
++					float f = uni;
++					if (uni > 1.0f && nhold > 0)
++						f = hold_tab[j] ? fs : 1.0f;
++					acc += f * P;
++					lim_tab[j] = acc;
++				}
++			}
++		}
++	}
++
++	/*
+ 	 * Assign to each synthesis frame the corresponding one in segment analysis
+ 	 */
+ 	frame_number(mb)[0]=1;
+@@ -431,7 +505,9 @@
+ 	/* stride through analysis frames  */
+ 	for(i=1; i<=nb_frame ;i++)
+     {
+-		if (t <= halfseg)	/* Left phone */
++		if (i <= NBRE_PM_MAX)	/* choir-practice patch: piecewise warp */
++			limit = (int) lim_tab[i];
++		else if (t <= halfseg)	/* Left phone */
+ 			limit = (int) (t*theta1);
+ 		else		/* Right phone */
+ 			limit = (int) (t*theta2 + beta);

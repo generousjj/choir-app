@@ -1,0 +1,157 @@
+title: The First Noel
+composer: arr. Don Neufeld (Kensington Choralworks, 2006)
+part: Men (Bass)
+key: 0
+time: 3/4
+tempo: 80
+text: Misterioso
+# p.2 (crossed out with a large X on the singer's copy): women only, m.1-12
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+9: r/2.
+10: r/2.
+time: 4/4
+11: r/1
+time: 3/4
+12: r/2.
+# p.3
+13: r/2.
+14: r/2 E3/8:The D3/8
+15: C3/4.:First D3/8 E3/8:No- F3/8
+16: G3/2:-el A3/8:the B3/8
+17: C4/4:An- B3/4:-gel A3/4:did
+18: G3/2:say A3/8:was B3/8:to
+19: C4/4:cer- B3/4:-tain A3/4:poor
+20: G3/4:shep- A3/4:-herds B3/4:in
+21: C4/4:fields G3/4:as F3/4:they
+time: 4/4
+22: E3/2.:lay; r/4
+time: 3/4
+23: r/2.
+24: r/2.
+# p.4
+25: r/2.
+26: r/2.
+27: r/2.
+28: r/2.
+29: r/2.
+# CUT (singer's "SKIP TO", printed "optional cut to m.44, beat 3"): m.30-44 beat 2 omitted
+# p.5 m.44 from beat 3 (partial measure)
+44p: E4/8:They D4/8
+45: C4/2:look- C4/4:-ed
+46: B3/2:up B3/4:and
+47: A3/4:saw G3/4 F3/4:a
+48: E3/2:star F3/8:shin- G3/8:-ing
+# p.6
+49: A3/4:in B3/4 C4/4:the
+50: D4/4:East, C4/4 B3/4:be-
+51: A3/4:-yond B3/4 D4/4:them
+time: 4/4
+52: C4/2:far. r/2      # "And" pickup crossed out on singer's copy
+time: 3/4
+53: r/8 C4/8:Oo D4/2   # bass = stems down (the C4 half is the tenor's)
+54: C4/4 r/2   # pencil X/loop over the rest: probably 'hold through into the next Oo'
+55: r/8 C4/8:Oo D4/2
+56: C4/4 r/2
+57: r/2.
+58: r/2.
+59: r/4 C4/4:day C4/4:and
+time: 4/4
+60: C4/2.:night. E4/8:No- D4/8
+# p.7  men divisi (upper = tenor/baritone, lower = bass), chords written lower+upper
+time: 3/4
+61: C4/4.:-el! B3+D4/8:No- A3+C4/8 Ab3+D4/8    # flat on the lower note (bass B3-A3-Ab3-G3)
+62: G3+D4/4:-el! G3+C4/2   # bass G3 dotted half; upper D4 then C4 (as in m.89-90)
+63: F3+C4/2:No- F3+C4/4:-el!
+64: E3+C4/4:No- E3+C4/2:-el!   # the (For eighths are the tenor's
+65: F3+A3/4:Born F3+D4/4:is F3+C4/4:the
+66: E3+C4/4:King D3+C4/4 D3+G3/4:of
+67: C3+A3/2:Is- D3+B3/4:-ra-
+68: E3+C#4/2:-el! r/4
+key: 2
+spelling: page
+# from here pitches are written as printed (D major: F and C sharp)
+69: r/2.
+70: r/2.
+71: r/2.
+72: D4/4:This C4/4:star B3/4:drew
+# p.8
+73: A3/2:nigh G3/8:to A3/8
+74: B3/4~:the B3/4 D4/4:north-
+75: D4/4:-west; C4/4 G3/4~:o'er
+76: G3/4 G3/4:Beth- D4/4:-le-
+77: B3/2:-hem, B3/4:it
+78: B3/4:took B3/4 A3/4:its       # tenors E4 / basses A3
+79: A3/2:rest. F3/8:And E3/8      # tenors D4 / basses A3
+80: D3/4.:those E3/8 F3/8:who G3/8   # basses; tenors A3 half, D4 quarter
+# p.8 system 3 (men divisi: basses = lower notes)
+81: A3/2:fol- B3/8:-lowed C4/8
+82: D4/4:that C4/4 B3/4:great
+83: A3/2:light D3/8:found D3/8:the
+84: G3/2:child, B3/4:the
+# p.9
+85: D3/2:King, D3/4:was
+86: A3/2:born A3/4:that
+87: D3+A3/2:night. A3/4:No-   # the singer pencilled 'D'
+88: B3/4:-el! A3/4 A3/4:No-
+89: A3/2.:-el!
+90: G3/4:No- G3/2:-el!
+91: F3/4:No- F3/2:-el!      # tenors: (For) on F#3-A3 eighths
+92: G3/4:Born G3/4:is G3/4:the
+# p.9 (A-008) system 4: men divisi again, chords lower (bass) + upper (tenor/baritone)
+93: F3+D4/4:King E3+D4/4 E3+A3/4:of     # bass F#3-E3 slurred; upper D4 is a half note (split into quarters)
+94: D3+B3/2:Is- E3+C4/4:-ra-            # C4 = C#4 (key)
+95: F3+A#3/2:-el! r/4   # F#3+A#3: the sharp is on A (F# major; women C#4+F#4)
+96: r/2 G3/8:Then Fn3/8                 # f; F natural announces E-flat
+key: -3
+# p.10 (A-009), E-flat major
+97: Eb3/4.:let F3/8 G3/8:us Ab3/8
+98: Bb3/2:all, C4/8:with D4/8           # pencil arrow/breath mark after "all"
+99: Eb4/4:one D4/4 C4/4:ac-
+100: Bb3/2:-cord, C4/8:sing D4/8
+101: Eb4/4:prais- D4/4 C4/4:-es
+102: Bb3/4:to C4/4 D4/4:our
+103: Eb4/4:Heav'n- Bb3/4 Ab3/4:-ly
+104: G3/2:Lord. G3/8:And F3/8           # lower voice only; upper voice rests on beat 3
+text: Majestic
+# from here the men's staff is tenor (stems up) + bass (stems down); the singer crossed out (X)
+# the upper notes in m.106-120, so only the lower notes are written there
+105: Eb3/4.:of- F3/8 G3/8:-fer Ab3/8    # upper voice (not written): Eb4 D4 C4 quarters
+106: Bb3/2:gifts Bb3/4:of
+107: Ab3/4:wor- Ab3/4:-ship Ab3/4:and
+108: G3/2:love Ab3/8:to Bb3/8           # half chord G3+Bb3 crossed out; circled "NB" over the eighths
+# p.11 (A-010)
+109: C4/4:Him Bb3/4 Ab3/4:sent
+110: G3/4:down Ab3/4 Bb3/4:from
+111: Eb3/2:Heav'n Eb3/4:a-
+112: Eb3/2:-bove. G3/8:No- F3/8         # pencil circle on beat 2
+# pencil "Pay attn." over m.113
+113: Eb3/4.:-el! F3/8 G3/8:No- Ab3/8
+114: G3/2:-el! Eb3/8:No- G3/8           # half chord G3+Bb3 crossed out; pencil circle on beat 2
+115: Ab3/2:-el! Ab3/4:No-               # singer circled the lower notes of beat 1
+116: G3/2:-el! Bb3/4
+time: 4/4
+117: r/4 C4/4:Born G3/4:is Ab3/4:the     # rest circled
+118: G3/1:King!
+119: r/4 Ab3/4:Born Ab3/4:is Ab3/4:the  # rest circled
+120: G3/1:King!
+# p.12 (A-011): men in up to three parts; chords = bass + middle voice (tenor top note in comments)
+121: Ab3+Eb4/2:Born G3+Bn3/4:is F3+Bb3/4:the   # tenor D4, Eb4 on beats 3-4
+text: ff, rall.
+tempo: 66
+122: Eb3+Bb3/2.:King G3/4:of            # tenor Eb4 then G4
+123: F3+C4/2:Is- G3+C4/4 Ab3+C4/4       # middle C4 is a whole note tied into m.124 (re-struck here); tenor F4
+124: Bb3+C4/2 Bb3+D4/4 Eb3+Eb4/4:-ra-   # bass Bb3 dotted half; tenor Eb4 F4 Eb4; beat 3 circled by the singer
+text: sub. a tempo
+tempo: 80
+125: Eb3+Eb4/1:-el!
+126: r/4 Ab3+Eb4/4:Born G3+Eb4/4:is F3+Eb4/4:the
+127: Eb3+Bb3/1~:King!                   # singer crossed out the low Eb3: he sings Bb3; tenor Eb4
+text: rit.
+128: Eb3+Bb3/1!

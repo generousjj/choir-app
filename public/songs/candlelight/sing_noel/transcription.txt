@@ -1,0 +1,133 @@
+title: Sing Noël
+composer: Brent Pierce (Walton W2989, 1975)
+part: Bass
+key: 0
+time: 6/8
+tempo: 127.5
+text: dotted quarter = 85
+# p.2: instrumental intro m.1-8
+1: r/2.
+2: r/2.
+3: r/2.
+4: r/2.
+5: r/2.
+6: r/2.
+7: r/2.
+8: r/2.
+# p.3
+9: F3/8:Come F3/16:spread F3/16:the F3/16:word, F3/16:a G3/8:Sav- F3/8:-ior Eb3/8:is
+10: F3/8:born. r/8 r/8 r/4.
+11: F3/8:Come F3/16:spread F3/16:the F3/16:word, F3/16:a G3/8:Sav- F3/8:-ior Eb3/8:is
+12: F3/8:born. r/8 r/8 r/4.
+# p.4
+13: G3/4:Sing G3/8:no- C4/4.:-ël,
+14: Bb3/4:sing Bb3/8:no- G3/4.:-ël,
+15: r/2.
+16: r/8 C4/4:sing Ab3/8~:no- Ab3/4
+17: B3/8:-ël, C4/4:sing, Bb3/4:sing Bb3/8:no-
+18: C4/8:-ël, C4/4:sing, Bb3/4:sing Bb3/8:no-
+# p.5
+19: C4/8:-ël, C4/4:sing, Bb3/4:sing Bb3/8:no-
+time: 3/4
+20: C4/2.~:-ël.
+21: C4/8 r/8 r/4 r/4
+22: r/2.
+23: D3/8:Bring A3/16:Him G3/16 A3/8:gifts D4/8:of C4/16:frank- Bb3/16:-in- A3/16:-cense G3/16:and
+# p.6
+24: A3/4:myrrh. A3/8:We'll C4/8~:bring C4/4
+25: G3/2.~:gifts   # was F3; head in the space under the top line, G major with S D5 A B4 T B3
+26: G3/2.
+time: 6/8
+27: Eb3/2.:and
+28: C3/2.~:gold.
+29: C3/2.
+30: r/2.
+31: r/2.
+# p.7  Poco meno mosso. Repeat goes back to m.27: 27-35 twice (confirmed by singer).
+# Bass sings m.35 only on the 2nd time.
+32: r/2.
+33: r/2.
+34: r/2.
+35: r/2.
+27: Eb3/2.:and
+28: C3/2.~:gold.
+29: C3/2.
+30: r/2.
+31: r/2.
+32: r/2.
+33: r/2.
+34: r/2.
+35: D4/4.:Come D4/8 C4/8:and Bb3/8
+36: A3/4.~:bring A3/4 E4/8:a
+37: D4/4:gift C4/8:to Bb3/8d:Christ D4/8d:the
+38: A3/4:Lord G3/8:in Eb3/8d:Beth- Gb3/8d:-le-
+# p.8
+39: Dn3/2.:-hem.   # natural printed in T and B (D major with alto F#4)
+40: D3/4.:Sing C3/4.
+41: Bb2/4.:no- C3/4.:-ël,
+42: D3/4.:sing C3/4.
+43: Bb2/4.:no- C3/4.
+44: D3/2.~:-ël.
+45: D3/2.~
+46: D3/8 r/8 r/8 r/4.
+# p.9  molto rit. (m.47)
+text: molto rit.
+tempo: 105
+47: r/2.
+48: r/2.
+49: r/2.
+50: r/2.
+51: D3/8:He D3/16:has E3/16 F#3/8:come G3/8:to Eb3/8:save C3/8:man-
+52: D3/2.~:-kind.
+# p.10
+53: D3/2.~
+54: D3/8 r/8 r/8 r/4.
+55: r/2.
+text: A tempo
+tempo: 127.5
+56: r/2.
+57: F3/8:Come F3/16:spread F3/16:the F3/16:word, F3/16:a G3/8:Sav- F3/8:-ior Eb3/8:is
+# p.11
+58: F3/8:born. r/8 r/8 r/4.
+59: F3/8:Come F3/16:spread F3/16:the F3/16:word, F3/16:a G3/8:Sav- F3/8:-ior Eb3/8:is
+60: C3/4.:born. r/4.   # was F3; C chord
+61: r/2.
+62: E3/8:Come E3/16:spread E3/16:the E3/16:word, E3/16:a D3/8:Sav- F3/8:-ior D3/8:is
+# p.12
+63: E3/8:born. r/8 r/8 r/4.
+64: E3/8:Come E3/16:spread E3/16:the E3/16:word, E3/16:a D3/8:Sav- F3/8:-ior D3/8:is
+65: C3/4.:born. Bb3/4.:No-
+66: C4/4.:-ël. r/4.
+67: r/2.
+# p.13
+68: r/2.
+69: F3/8.:Sing F3/16:no- F3/8:-ël, Eb3/8.:sing F3/16 G3/8:no-
+70: F3/2.:-ël,
+71: Eb3/4.:no- F3/4.:-ël,
+72: r/4. B3/8.:sing A3/16:no- A3/8:-ël,     # natural sign (confirmed by singer)
+73: r/4. Bb3/8.:sing A3/16:no- A3/8:-ël,    # B-flat (confirmed by singer)
+# p.14
+74: G3/8.:sing G3/16:no- D3/8:-ël, Bb2/8.:sing C3/16 F3/8:no-
+75: G3/2.~:-ël,
+76: G3/2.
+77: G3/4.:sing F3/4.:no-
+78: Eb3/8d:-ël, F3/8d:no- G3/8d:-ël, Db3/8d:no-
+79: Eb3/2.~:-ël,
+# p.15
+80: Eb3/4. F3/4.:no-
+81: Eb3/2.~:-ël.
+82: Eb3/8 r/8 r/8 r/4.   # tied from m.81 (was D3)
+83: r/2.
+84: r/2.
+85: r/2.
+86: r/4. Eb3/4.:Sing
+87: G3/4. F3/4.:no-
+# p.16  final chord, basses divisi. Baritones (upper) end on B3, the space above the staff (confirmed).
+# m.88: flat then natural before the upper note (Bb3 rising to B3) - CHECK
+88: D3+Bb3/4.~:-ël. D3+B3/4.~
+89: E3+B3/2.~
+90: E3+B3/2.~
+91: E3+B3/2.~
+92: E3+B3/8 r/8 r/8 r/4.
+93: r/2.
+94: r/2.
