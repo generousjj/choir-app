@@ -1,6 +1,24 @@
 {
  "songs": [
   {
+   "id": "candlelight_processional",
+   "title": "Candlelight Processional",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "Disneyland Candlelight (Vocal edition, REV 09/1/23)",
+   "file": "songs/candlelight/candlelight_processional/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
+   "id": "sing_praise",
+   "title": "Sing Praise To Him Our Lord",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "James Christensen (SATB divisi; as performed at Disneyland and Walt Disney World)",
+   "file": "songs/candlelight/sing_praise/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
    "id": "first_noel",
    "title": "The First Noel",
    "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
@@ -44,24 +62,6 @@
    }
   },
   {
-   "id": "candlelight_processional",
-   "title": "Candlelight Processional",
-   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
-   "composer": "Disneyland Candlelight (Vocal edition, REV 09/1/23)",
-   "file": "songs/candlelight/candlelight_processional/score.musicxml",
-   "source": "Hand transcription from the singer's folder photos.",
-   "license": "Copyrighted arrangement; private practice copy."
-  },
-  {
-   "id": "sing_praise",
-   "title": "Sing Praise To Him Our Lord",
-   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
-   "composer": "James Christensen (SATB divisi; as performed at Disneyland and Walt Disney World)",
-   "file": "songs/candlelight/sing_praise/score.musicxml",
-   "source": "Hand transcription from the singer's folder photos.",
-   "license": "Copyrighted arrangement; private practice copy."
-  },
-  {
    "id": "angels",
    "title": "Angels We Have Heard On High",
    "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
@@ -89,6 +89,15 @@
    "license": "Copyrighted arrangement; private practice copy."
   },
   {
+   "id": "sing_noel",
+   "title": "Sing Noël",
+   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
+   "composer": "Brent Pierce (Walton W2989, 1975)",
+   "file": "songs/candlelight/sing_noel/score.musicxml",
+   "source": "Hand transcription from the singer's folder photos.",
+   "license": "Copyrighted arrangement; private practice copy."
+  },
+  {
    "id": "joy_to_the_world",
    "title": "Joy To The World",
    "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
@@ -103,15 +112,6 @@
    "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
    "composer": "Josef Mohr, Franz X. Gruber; arr. Bruce Healey",
    "file": "songs/candlelight/silent_night/score.musicxml",
-   "source": "Hand transcription from the singer's folder photos.",
-   "license": "Copyrighted arrangement; private practice copy."
-  },
-  {
-   "id": "sing_noel",
-   "title": "Sing Noël",
-   "subtitle": "Disneyland Candlelight — transcribed from your folder (all parts)",
-   "composer": "Brent Pierce (Walton W2989, 1975)",
-   "file": "songs/candlelight/sing_noel/score.musicxml",
    "source": "Hand transcription from the singer's folder photos.",
    "license": "Copyrighted arrangement; private practice copy."
   }

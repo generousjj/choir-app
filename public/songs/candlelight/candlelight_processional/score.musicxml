@@ -22,33 +22,33 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pec6b1ef86731f43549437b3fdc63a318">
+    <score-part id="Pb24a55831c052c2f26667f70926e3b66">
       <part-name>Soprano (women, unison melody)</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="Ie62f1fcf393205a4e655ad437420874c">
+      <score-instrument id="I06a817a0d06528f632ce1dd527d9bc94">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ie62f1fcf393205a4e655ad437420874c">
+      <midi-instrument id="I06a817a0d06528f632ce1dd527d9bc94">
         <midi-channel>1</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="Pe1ea291e1f2fe0cab760d9ba7cc2a155">
+    <score-part id="Pac70f3de52943e2748e144396c1de4cc">
       <part-name>Bass</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="I22b10b9021352a24c3241ef613d9fbb9">
+      <score-instrument id="Id73a02bb52140512f66a8dfc8011eb85">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I22b10b9021352a24c3241ef613d9fbb9">
+      <midi-instrument id="Id73a02bb52140512f66a8dfc8011eb85">
         <midi-channel>2</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pec6b1ef86731f43549437b3fdc63a318">
+  <part id="Pb24a55831c052c2f26667f70926e3b66">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0p">
       <attributes>
@@ -7779,7 +7779,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Pe1ea291e1f2fe0cab760d9ba7cc2a155">
+  <part id="Pac70f3de52943e2748e144396c1de4cc">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0p">
       <attributes>

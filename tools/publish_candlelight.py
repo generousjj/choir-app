@@ -7,11 +7,11 @@ parts, same measure lines). They are converted into one score.musicxml, and cata
 import json, os, subprocess, re
 APP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f'{APP}/public/songs/candlelight'
-SONGS = [  # id, title (fallback; the transcription's title: line wins)
-    ('first_noel', 'The First Noel'), ('candlelight_carol', 'Candlelight Carol'), ('he_is_born', 'He Is Born (Il Est Né)'),
+SONGS = [  # show order (id, fallback title); Hallelujah, from the main catalog, closes the show
     ('candlelight_processional', 'Candlelight Processional'), ('sing_praise', 'Sing Praise To Him Our Lord'),
+    ('first_noel', 'The First Noel'), ('candlelight_carol', 'Candlelight Carol'), ('he_is_born', 'He Is Born (Il Est Né)'),
     ('angels', 'Angels We Have Heard On High'), ('what_child', 'What Child Is This'), ('we_three_kings', 'We Three Kings'),
-    ('joy_to_the_world', 'Joy To The World'), ('silent_night', 'Silent Night'), ('sing_noel', 'Sing Noël'),
+    ('sing_noel', 'Sing Noël'), ('joy_to_the_world', 'Joy To The World'), ('silent_night', 'Silent Night'),
 ]
 LEX = {'he_is_born': {
     # French refrain, as on the singer's sheet: "i lɛ ne, lə divi nɑ̃fɑ̃ / ʒu e o bwa, re zɔ ne my zɛ tə /
