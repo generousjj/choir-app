@@ -24,7 +24,8 @@ await page.reload();
 const status = () => page.locator('.status').innerText();
 await page.waitForFunction(() => document.querySelector('.status')?.textContent?.startsWith('Ready'), null, { timeout: 90000 });
 check('app loads and synthesizes', true, await status());
-check('Bass part selected by default', (await page.locator('.chip.on').innerText()).includes('Bass'));
+const selectedPart = () => page.$eval('#line', (el) => el.selectedOptions[0]?.textContent ?? '');
+check('Bass part selected by default', (await selectedPart()).includes('Bass'), await selectedPart());
 
 const getTime = () => page.evaluate(() => {
   const txt = document.querySelector('.readout .mono.muted')?.textContent ?? '';
@@ -45,6 +46,9 @@ const tp = await getTime();
 await page.waitForTimeout(1500);
 check('pause stops the clock', (await getTime()) === tp, tp);
 
+// settings drawer (a bottom sheet on a phone)
+await page.getByRole('button', { name: 'Settings' }).click();
+await page.waitForTimeout(300);
 // tempo 50%: re-synthesized, musical position kept
 const mBefore = await page.locator('.readout b.mono').first().innerText();
 await page.getByRole('button', { name: '50%' }).click();
@@ -93,14 +97,15 @@ if (b64) { writeFileSync(`${out}/browser-mix.wav`, Buffer.from(b64, 'base64')); 
 else check('captured browser audio', false, 'no player handle');
 
 // import a MusicXML file (closed score: S and A on one staff, repeats, 2 verses)
+await page.getByRole('tab', { name: 'Song info' }).click();
 await page.setInputFiles('#import', 'tests/fixtures/closed-score-test.musicxml');
 await page.waitForFunction(() => document.querySelector('.note')?.textContent?.startsWith('Imported'), null, { timeout: 30000 });
 check('MusicXML import', true, await page.locator('.note').innerText());
 await page.waitForFunction(() => document.querySelector('.status')?.textContent?.startsWith('Ready'), null, { timeout: 60000 });
-const chips = await page.locator('.chip b').allInnerTexts();
-check('imported closed score: S, A, T detected', ['S', 'A', 'T'].every((r) => chips.includes(r)), chips.join(' '));
+const parts = await page.$$eval('#line option', (o) => o.map((x) => x.textContent ?? ''));
+check('imported closed score: S, A, T detected', ['Soprano', 'Alto', 'Tenor'].every((r) => parts.some((p) => p.includes(r))), parts.join(' | '));
 check('review panel opens after import', await page.locator('.review').isVisible());
-await page.locator('.chip', { hasText: 'Alto' }).click();
+await page.selectOption('#line', await page.$$eval('#line option', (o) => o.find((x) => x.textContent?.includes('Alto'))?.value ?? ''));
 await page.waitForFunction(() => document.querySelector('.status')?.textContent?.includes('Women'), null, { timeout: 60000 });
 await page.getByRole('tab', { name: 'Lyrics' }).click();
 const altoText = (await page.locator('.lyric-list').innerText()).replace(/\s+/g, ' ');

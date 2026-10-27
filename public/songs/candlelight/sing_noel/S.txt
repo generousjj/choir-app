@@ -41,19 +41,13 @@ time: 6/8
 27: F5/2.:and
 28: G5/2.~:gold.
 29: G5/2.
-30: r/2.
+# m.30 = 1st ending, not taken. "and gold" is sung once (singer); 2nd ending m.31, then p.7 top system (m.32-35) twice ("x2" pencilled)
 31: r/2.
-# p.7  Poco meno mosso. Repeat goes back to m.27: 27-35 twice (confirmed by singer).
-# Bass sings m.35 only on the 2nd time.
 32: A4/4.~:We've A4/4 E5/8:heard
 33: D5/4:tell C5/8:a Bb4/8d:Sav- D5/8d:-ior
 34: A4/4:born G4/8:in Eb4/8d:Beth- Gb4/8d:-le-
 35: D4/2.:-hem.
-27: F5/2.:and
-28: G5/2.~:gold.
-29: G5/2.
-30: r/2.
-31: r/2.
+# m.32-35 again (2nd time: men "Come and")
 32: A4/4.~:We've A4/4 E5/8:heard
 33: D5/4:tell C5/8:a Bb4/8d:Sav- D5/8d:-ior
 34: A4/4:born G4/8:in Eb4/8d:Beth- Gb4/8d:-le-

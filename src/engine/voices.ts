@@ -75,6 +75,14 @@ function sharedStaffRoles(part: Score['parts'][number]): Map<string, Role> {
   return roles;
 }
 
+/** Names for the two lines of a divided part (upper, lower). */
+const DIVISI_NAMES: Partial<Record<Role, [string, string]>> = {
+  S: ['Soprano 1 (upper note at divisi)', 'Soprano 2 (lower note at divisi)'],
+  A: ['Alto 1 (upper note at divisi)', 'Alto 2 (lower note at divisi)'],
+  T: ['Tenor 1 (upper note at divisi)', 'Tenor 2 (lower note at divisi)'],
+  B: ['Baritone (upper note at divisi)', 'Bass (lower note at divisi)'],
+};
+
 export function singableLines(score: Score): SingableLine[] {
   const out: SingableLine[] = [];
   for (const part of score.parts) {
@@ -94,7 +102,7 @@ export function singableLines(score: Score): SingableLine[] {
         const role = shared.get(line.id) ?? roleFromName(part.name) ?? roleFromRange(lo, hi);
         let label = part.name || line.partId;
         if (multiVoice) label += ` (staff ${line.staff}, voice ${line.voice})`;
-        if (hasChords && role === 'B' && !multiVoice && /bass|men/i.test(part.name)) label = pick === 'top' ? 'Baritone (upper note at divisi)' : 'Bass (lower note at divisi)';
+        if (hasChords && !multiVoice && DIVISI_NAMES[role]) label = DIVISI_NAMES[role]![pick === 'top' ? 0 : 1];
         else if (hasChords) label += pick === 'top' ? ' — upper divisi' : ' — lower divisi';
         out.push({ key: `${line.id}|${pick}`, line, pick, label, role, lyricCount, noteCount: notes.length, range: [lo, hi] });
       }

@@ -7,3 +7,4 @@ export const IconReplay = () => <svg {...P}><path d="M4 12a8 8 0 1 0 2.4-5.7" />
 export const IconLoop = () => <svg {...P}><path d="M17 2l3 3-3 3" /><path d="M4 11V9a4 4 0 0 1 4-4h12" /><path d="M7 22l-3-3 3-3" /><path d="M20 13v2a4 4 0 0 1-4 4H4" /></svg>;
 export const IconDownload = () => <svg {...P}><path d="M12 4v11" /><path d="M7 10l5 5 5-5" /><path d="M5 20h14" /></svg>;
 export const IconUpload = () => <svg {...P}><path d="M12 20V9" /><path d="M7 14l5-5 5 5" /><path d="M5 4h14" /></svg>;
+export const IconSliders = () => <svg {...P}><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" /><circle cx="16" cy="6" r="2" /><circle cx="10" cy="12" r="2" /><circle cx="18" cy="18" r="2" /></svg>;

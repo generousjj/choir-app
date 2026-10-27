@@ -4,11 +4,11 @@ import { buildStems, mixStems, type AccompMode, type MixGains, type Stems } from
 import { VOICES } from '../engine/mbrola';
 import { renderVocal, type VocalRender } from '../engine/render';
 import type { Score } from '../engine/types';
-import { findRole, singableLines, type Role } from '../engine/voices';
+import { findRole, roleFromName, singableLines, type ChordPick, type Role } from '../engine/voices';
 import { encodeWav } from '../engine/wav';
 import { encodeMp3, saveAudio, warmDownloads } from './download';
 import { Engine, loadScoreUrl, parseScoreBytes } from './engine';
-import { IconDownload, IconLoop, IconPause, IconPlay, IconReplay, IconStop, IconUpload } from './icons';
+import { IconDownload, IconLoop, IconPause, IconPlay, IconReplay, IconSliders, IconStop, IconUpload } from './icons';
 import { LyricList, Stage } from './Lyrics';
 import { buildPhrases, fmtTime, noteName, phraseAt, syllableAt, type Phrase } from './phrases';
 import { Player } from './player';
@@ -16,23 +16,30 @@ import { Review } from './Review';
 import { SheetView } from './SheetView';
 import { deleteScore, getCorrections, listScores, loadPref, putCorrections, putScore, savePref, type Corrections } from './storage';
 
+type View = 'words' | 'music' | 'hidden';
+type Panel = 'practice' | 'sound' | 'lyrics' | 'review' | 'about';
 interface Prefs {
   songId: string;
+  /** the part you sing, remembered across songs: exact line label first, then role + divisi side */
   role: Role;
-  lineKey: string;
+  pick: ChordPick;
+  partLabel: string;
   tempoPct: number;
   voice: string;
   vibrato: boolean;
   octave: number;
   accomp: AccompMode;
   gains: MixGains;
-  showSheet: boolean;
+  view: View;
 }
 const DEFAULT_PREFS: Prefs = {
-  songId: 'hallelujah', role: 'B', lineKey: '', tempoPct: 100, voice: 'us3', vibrato: false, octave: 0,
-  accomp: 'off', gains: { voice: 1, guide: 0, accomp: 0.5 }, showSheet: false,
+  songId: 'hallelujah', role: 'B', pick: 'top', partLabel: '', tempoPct: 100, voice: 'us3', vibrato: false, octave: 0,
+  accomp: 'off', gains: { voice: 1, guide: 0, accomp: 0.5 }, view: 'words',
 };
-const ROLE_NAMES: Record<string, string> = { S: 'Soprano', A: 'Alto', T: 'Tenor', B: 'Bass / Baritone' };
+
+const ROLE_WORDS: Record<string, string> = { S: 'Soprano', A: 'Alto', T: 'Tenor', B: 'Bass' };
+/** Menu name of a line: its label, prefixed with the voice when the label doesn't say it (imported scores). */
+const partName = (l: { label: string; role: Role }) => (roleFromName(l.label) === l.role || !ROLE_WORDS[l.role] ? l.label : `${ROLE_WORDS[l.role]} — ${l.label}`);
 
 interface Loaded { entry: SongEntry; score: Score; xml: string }
 
@@ -46,7 +53,7 @@ function useDebounced<T>(v: T, ms: number): T {
 }
 
 export function App() {
-  const [prefs, setPrefs] = useState<Prefs>(() => loadPref('prefs', DEFAULT_PREFS));
+  const [prefs, setPrefs] = useState<Prefs>(() => ({ ...DEFAULT_PREFS, ...loadPref('prefs', DEFAULT_PREFS) }));
   const upd = (p: Partial<Prefs>) => setPrefs((o) => ({ ...o, ...p }));
   useEffect(() => savePref('prefs', prefs), [prefs]);
 
@@ -64,7 +71,8 @@ export function App() {
   const [jump, setJump] = useState('');
   const [tempoDraft, setTempoDraft] = useState(prefs.tempoPct);
   const [note, setNote] = useState('');
-  const [panel, setPanel] = useState<'lyrics' | 'review' | 'about'>('lyrics');
+  const [panel, setPanel] = useState<Panel>('practice');
+  const [drawer, setDrawer] = useState(false); // phone: settings sheet open (always shown on wide screens)
 
   const player = useRef<Player>(null as unknown as Player);
   if (!player.current) {
@@ -133,8 +141,14 @@ export function App() {
   const lines = useMemo(() => (song ? singableLines(song.score) : []), [song]);
   const line = useMemo(() => {
     if (!lines.length) return undefined;
-    return lines.find((l) => l.key === prefs.lineKey) ?? findRole(lines, prefs.role) ?? lines[lines.length - 1];
-  }, [lines, prefs.lineKey, prefs.role]);
+    return lines.find((l) => l.label === prefs.partLabel)
+      ?? lines.find((l) => l.role === prefs.role && l.pick === prefs.pick)
+      ?? findRole(lines, prefs.role) ?? lines[lines.length - 1];
+  }, [lines, prefs.partLabel, prefs.role, prefs.pick]);
+  const pickLine = (key: string) => {
+    const l = lines.find((x) => x.key === key);
+    if (l) upd({ partLabel: l.label, role: l.role, pick: l.pick });
+  };
   const corrKey = song && line ? `${song.entry.id}|${line.key}` : '';
   useEffect(() => { if (corrKey) getCorrections(corrKey).then(setCorr); }, [corrKey]);
 
@@ -286,7 +300,7 @@ export function App() {
     setNote('Preparing file…');
     const sr = stems.sampleRate;
     const pcm = mixStems(stems, prefs.gains, clipRange.a * sr, clipRange.b * sr);
-    const base = `${song.entry.title} - ${ROLE_NAMES[line.role] ?? line.label} - ${prefs.tempoPct}%${loop.on ? ` - m${loop.from}-${loop.to}` : ''}`.replace(/[\\/:*?"<>|]/g, '');
+    const base = `${song.entry.title} - ${line.label.replace(/ \(.*\)$/, '')} - ${prefs.tempoPct}%${loop.on ? ` - m${loop.from}-${loop.to}` : ''}`.replace(/[\\/:*?"<>|]/g, '');
     const bytes = fmt === 'wav' ? encodeWav(pcm, sr) : encodeMp3(pcm, sr);
     setNote(await saveAudio(`${base}.${fmt}`, bytes));
   };
@@ -300,8 +314,8 @@ export function App() {
       const id = `user-${Date.now()}`;
       await putScore({ id, title: score.title || f.name, composer: score.composer, fileName: f.name, added: Date.now(), bytes });
       setUserSongs((u) => [...u, { id, title: score.title || f.name, composer: score.composer, file: '', user: true }]);
-      upd({ songId: id, lineKey: '' });
-      setPanel('review');
+      upd({ songId: id });
+      setPanel('review'); setDrawer(true);
       setNote(`Imported “${score.title || f.name}”: ${score.parts.length} parts, ${score.measures.length} measures, ${sl.length} singable lines. Check the part and lyrics below.`);
     } catch (e) {
       setNote(`Could not import ${f.name}: ${(e as Error).message}`);
@@ -311,10 +325,9 @@ export function App() {
     if (!song?.entry.user) return;
     await deleteScore(song.entry.id);
     setUserSongs((u) => u.filter((s) => s.id !== song.entry.id));
-    upd({ songId: 'hallelujah', lineKey: '' });
+    upd({ songId: 'hallelujah' });
   };
 
-  const roles = (['S', 'A', 'T', 'B'] as Role[]).filter((r) => lines.some((l) => l.role === r));
   const total = stems ? stems.length / stems.sampleRate : render?.duration ?? 0;
   const qpm = render ? Math.round(render.tempo.initialQpm) : 0;
   const lastMeasure = song?.score.measures[song.score.measures.length - 1]?.number ?? '';
@@ -326,186 +339,192 @@ export function App() {
           <span className="eyebrow">Candlelight Choir</span>
           <h1>Part Practice</h1>
         </div>
-        <label className="sr" htmlFor="song">Song</label>
-        <select id="song" className="song-select" value={song?.entry.id ?? prefs.songId} onChange={(e) => upd({ songId: e.target.value, lineKey: '' })}>
-          {allSongs.map((s) => <option key={s.id} value={s.id}>{s.title}{s.user ? ' (imported)' : ''}</option>)}
-        </select>
+        <div className="pickers">
+          <label className="sr" htmlFor="song">Song</label>
+          <select id="song" className="song-select" value={song?.entry.id ?? prefs.songId} onChange={(e) => upd({ songId: e.target.value })}>
+            {allSongs.map((s, i) => <option key={s.id} value={s.id}>{s.user ? `${s.title} (imported)` : `${i + 1}. ${s.title}`}</option>)}
+          </select>
+          <label className="sr" htmlFor="line">Your part</label>
+          <select id="line" className="part-select" value={line?.key ?? ''} onChange={(e) => pickLine(e.target.value)} disabled={!lines.length}>
+            {lines.map((l) => <option key={l.key} value={l.key}>{partName(l)} · {noteName(l.range[0])}–{noteName(l.range[1])}</option>)}
+          </select>
+        </div>
         {song && <p className="subtitle">{song.entry.subtitle ?? song.score.composer}{song.entry.composer ? ` · ${song.entry.composer}` : ''}</p>}
       </header>
 
       {error && <p className="error" role="alert">{error}</p>}
 
-      <section className="parts" aria-label="Voice part">
-        {roles.map((r) => (
-          <button key={r} className={`chip${line?.role === r ? ' on' : ''}`} onClick={() => upd({ role: r, lineKey: '' })} aria-pressed={line?.role === r}>
-            <b>{r}</b><span>{ROLE_NAMES[r]}</span>
-          </button>
-        ))}
-        {lines.length > roles.length && (
-          <select id="line" aria-label="All singable lines" value={line?.key ?? ''} onChange={(e) => upd({ lineKey: e.target.value })}>
-            {lines.map((l) => <option key={l.key} value={l.key}>{l.label} · {noteName(l.range[0])}–{noteName(l.range[1])}</option>)}
-          </select>
-        )}
-      </section>
+      <div className="layout">
+        <main className="main">
+          <section className="now" aria-label="Now singing">
+            <div className="readout">
+              <span><span className="k">Measure</span> <b className="mono">{pos?.number ?? '–'}</b><span className="muted"> / {lastMeasure}</span></span>
+              <span><span className="k">Note</span> <b className="mono">{prefs.view === 'hidden' ? '?' : sounding ? noteName(sounding.notes[Math.max(0, sounding.notes.findIndex((n) => time < n.t1))]?.midi ?? sounding.notes[0].midi) : '–'}</b></span>
+              <span className="mono muted">{fmtTime(time)} / {fmtTime(total)}</span>
+            </div>
+            <div className="seg" role="radiogroup" aria-label="Show">
+              {([['words', 'Words'], ['music', 'Music'], ['hidden', 'Test me']] as [View, string][]).map(([v, t]) => (
+                <button key={v} role="radio" aria-checked={prefs.view === v} className={prefs.view === v ? 'on' : ''} onClick={() => upd({ view: v })}>{t}</button>
+              ))}
+            </div>
+            {prefs.view === 'words' && <Stage phrases={phrases} pi={pi} cur={sounding ? cur : -1} />}
+            {prefs.view === 'music' && song && line && (
+              <SheetView xml={song.xml} score={song.score} partIndex={song.score.parts.find((p) => p.id === line.line.partId)?.index ?? 0} pos={pos} />
+            )}
+            {prefs.view === 'hidden' && (
+              <div className="testme">
+                <p className="big-m mono">{pos?.number ?? '–'}</p>
+                <p className="hint">Words and notes are hidden. Sing your part from memory, then switch back to check.</p>
+              </div>
+            )}
+            <input
+              id="scrub" className="scrub" type="range" min={0} max={total || 1} step={0.05} value={Math.min(time, total)}
+              aria-label="Position" onChange={(e) => seekSong(+e.target.value)}
+              style={{ ['--a' as string]: clipRange && total ? `${(clipRange.a / total) * 100}%` : '0%', ['--b' as string]: clipRange && total ? `${(clipRange.b / total) * 100}%` : '100%' }}
+              data-loop={loop.on ? '1' : '0'}
+            />
+            <p className="status" aria-live="polite">{busy ? <span className="spin" aria-hidden /> : null}{status}</p>
+          </section>
+          {note && <p className="note" role="status">{note}</p>}
+        </main>
 
-      <section className="now" aria-label="Now singing">
-        <div className="readout">
-          <span><span className="k">Measure</span> <b className="mono">{pos?.number ?? '–'}</b><span className="muted"> / {lastMeasure}</span></span>
-          <span><span className="k">Note</span> <b className="mono">{sounding ? noteName(sounding.notes[Math.max(0, sounding.notes.findIndex((n) => time < n.t1))]?.midi ?? sounding.notes[0].midi) : '–'}</b></span>
-          <span className="mono muted">{fmtTime(time)} / {fmtTime(total)}</span>
-        </div>
-        <Stage phrases={phrases} pi={pi} cur={sounding ? cur : -1} />
-        <input
-          id="scrub" className="scrub" type="range" min={0} max={total || 1} step={0.05} value={Math.min(time, total)}
-          aria-label="Position" onChange={(e) => seekSong(+e.target.value)}
-          style={{ ['--a' as string]: clipRange && total ? `${(clipRange.a / total) * 100}%` : '0%', ['--b' as string]: clipRange && total ? `${(clipRange.b / total) * 100}%` : '100%' }}
-          data-loop={loop.on ? '1' : '0'}
-        />
-        <p className="status" aria-live="polite">{busy ? <span className="spin" aria-hidden /> : null}{status}</p>
-      </section>
+        {drawer && <button className="scrim" aria-label="Close settings" onClick={() => setDrawer(false)} />}
+        <aside className={`drawer${drawer ? ' open' : ''}`} aria-label="Practice settings">
+          <div className="drawer-head">
+            <div className="tabs" role="tablist">
+              {([['practice', 'Practice'], ['sound', 'Sound'], ['lyrics', 'Lyrics'], ['review', 'Check'], ['about', 'Song info']] as [Panel, string][]).map(([k, t]) => (
+                <button key={k} role="tab" aria-selected={panel === k} className={panel === k ? 'on' : ''} onClick={() => setPanel(k)}>{t}</button>
+              ))}
+            </div>
+            <button className="close" aria-label="Close settings" onClick={() => setDrawer(false)}>×</button>
+          </div>
+
+          {panel === 'practice' && (
+            <div className="pane">
+              <div className="field">
+                <label htmlFor="tempo">Tempo <span className="mono">{tempoDraft}%</span>{qpm ? <span className="muted"> · ♩ = {Math.round((qpm * tempoDraft) / prefs.tempoPct)}</span> : null}</label>
+                <input id="tempo" type="range" min={40} max={125} step={5} value={tempoDraft}
+                  onChange={(e) => setTempoDraft(+e.target.value)}
+                  onPointerUp={(e) => applyTempo(+(e.target as HTMLInputElement).value)}
+                  onKeyUp={(e) => applyTempo(+(e.target as HTMLInputElement).value)}
+                  onTouchEnd={(e) => applyTempo(+(e.target as HTMLInputElement).value)} />
+                <div className="row">
+                  {[50, 75, 90, 100].map((v) => <button key={v} className={`mini${prefs.tempoPct === v ? ' on' : ''}`} onClick={() => applyTempo(v)}>{v}%</button>)}
+                </div>
+                <p className="hint">Slower tempos are re-sung at that speed, so the pitch never changes.</p>
+              </div>
+              <div className="field">
+                <span className="label">Loop measures</span>
+                <div className="row">
+                  <input id="loop-from" className="num" inputMode="numeric" aria-label="Loop from measure" value={loop.from} onChange={(e) => setLoop((l) => ({ ...l, from: e.target.value }))} />
+                  <span>to</span>
+                  <input id="loop-to" className="num" inputMode="numeric" aria-label="Loop to measure" value={loop.to} onChange={(e) => setLoop((l) => ({ ...l, to: e.target.value }))} />
+                  <button className={`btn${loop.on ? ' on' : ''}`} onClick={() => setLoop((l) => ({ ...l, on: !l.on }))}>{loop.on ? 'Looping' : 'Loop'}</button>
+                  {phrases[pi] && <button className="btn ghost" onClick={() => loopPhrase(phrases[pi])}>This phrase</button>}
+                </div>
+              </div>
+              <form className="field" onSubmit={(e) => { e.preventDefault(); goMeasure(jump); }}>
+                <label htmlFor="jump">Go to measure</label>
+                <div className="row">
+                  <input id="jump" className="num" inputMode="numeric" placeholder={`1–${lastMeasure}`} value={jump} onChange={(e) => setJump(e.target.value)} />
+                  <button className="btn" type="submit">Go</button>
+                </div>
+              </form>
+            </div>
+          )}
+
+          {panel === 'sound' && (
+            <div className="pane">
+              <div className="field">
+                <label htmlFor="g-voice">Singing voice <span className="mono">{Math.round(prefs.gains.voice * 100)}%</span></label>
+                <input id="g-voice" type="range" min={0} max={1.5} step={0.05} value={prefs.gains.voice} onChange={(e) => upd({ gains: { ...prefs.gains, voice: +e.target.value } })} />
+              </div>
+              <div className="field">
+                <label htmlFor="g-guide">Piano playing your notes <span className="mono">{Math.round(prefs.gains.guide * 100)}%</span></label>
+                <input id="g-guide" type="range" min={0} max={1} step={0.05} value={prefs.gains.guide} onChange={(e) => upd({ gains: { ...prefs.gains, guide: +e.target.value } })} />
+                <div className="row">
+                  <button className="mini" onClick={() => upd({ gains: { ...prefs.gains, voice: 0, guide: Math.max(prefs.gains.guide, 0.7) } })}>Piano only</button>
+                  <button className="mini" onClick={() => upd({ gains: { ...prefs.gains, voice: 1, guide: 0 } })}>Voice only</button>
+                </div>
+              </div>
+              <div className="field">
+                <label htmlFor="accomp">Accompaniment</label>
+                <div className="row">
+                  <select id="accomp" value={prefs.accomp} onChange={(e) => upd({ accomp: e.target.value as AccompMode })}>
+                    <option value="off">Off</option>
+                    <option value="choir">Other choir parts (organ)</option>
+                    <option value="full">Full score (choir + orchestra)</option>
+                  </select>
+                </div>
+                {prefs.accomp !== 'off' && (
+                  <>
+                    <label htmlFor="g-acc" className="sub">Accompaniment volume <span className="mono">{Math.round(prefs.gains.accomp * 100)}%</span></label>
+                    <input id="g-acc" type="range" min={0} max={1} step={0.05} value={prefs.gains.accomp} onChange={(e) => upd({ gains: { ...prefs.gains, accomp: +e.target.value } })} />
+                  </>
+                )}
+              </div>
+              <div className="field">
+                <label htmlFor="voice">Synthetic singer</label>
+                <select id="voice" value={prefs.voice} onChange={(e) => upd({ voice: e.target.value })}>
+                  {Object.entries(VOICES).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
+                </select>
+                <div className="row wrap">
+                  <label className="check"><input id="vib" type="checkbox" checked={prefs.vibrato} onChange={(e) => upd({ vibrato: e.target.checked })} /> Gentle vibrato</label>
+                  <label className="check">Octave
+                    <select id="oct" aria-label="Octave shift" value={prefs.octave} onChange={(e) => upd({ octave: +e.target.value })}>
+                      <option value={-1}>−1</option><option value={0}>as written</option><option value={1}>+1</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div className="field">
+                <span className="label">Save audio {loop.on ? `(measures ${loop.from}–${loop.to})` : '(whole piece)'}</span>
+                <div className="row">
+                  <button className="btn" onClick={() => download('mp3')} disabled={!stems}><IconDownload /> MP3</button>
+                  <button className="btn ghost" onClick={() => download('wav')} disabled={!stems}><IconDownload /> WAV</button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {panel === 'lyrics' && <LyricList phrases={phrases} pi={pi} cur={sounding ? cur : -1} onPick={pickPhrase} onLoop={loopPhrase} />}
+          {panel === 'review' && render && (
+            <Review key={corrKey} syllables={render.syllables} warnings={render.warnings} corrections={corr}
+              onChange={(c) => { setCorr(c); void putCorrections(corrKey, c); }}
+              onJump={(mi) => goMeasure(song!.score.measures[mi - 1].number)} />
+          )}
+          {panel === 'about' && (
+            <div className="pane about">
+              {song && (
+                <dl>
+                  <dt>Title</dt><dd>{song.score.title}</dd>
+                  <dt>Parts</dt><dd>{song.score.parts.map((p) => p.name).join(', ')}</dd>
+                  <dt>Measures</dt><dd>{song.score.measures.length}</dd>
+                  {line && <><dt>Your line</dt><dd>{line.label}: {line.noteCount} notes, {line.lyricCount} lyric syllables, range {noteName(line.range[0])}–{noteName(line.range[1])}</dd></>}
+                  {song.entry.source && <><dt>Source</dt><dd>{song.entry.source}</dd></>}
+                  {song.entry.license && <><dt>License</dt><dd>{song.entry.license}</dd></>}
+                </dl>
+              )}
+              {song?.entry.user && <button className="btn ghost" onClick={removeSong}>Remove this imported score</button>}
+              <h2>Add a score</h2>
+              <p>Import a MusicXML file (<code>.musicxml</code>, <code>.xml</code> or <code>.mxl</code>) exported from MuseScore, Finale, Sibelius or Dorico, or produced by a scanning app from a photo or PDF. It stays on this device. Afterwards, check the lyrics and pronunciation in “Check &amp; correct”.</p>
+              <label className="btn file">
+                <IconUpload /> Choose MusicXML file
+                <input id="import" type="file" accept=".musicxml,.xml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" onChange={(e) => { const f = e.target.files?.[0]; if (f) void importFile(f); e.target.value = ''; }} />
+              </label>
+              <p className="foot">Singing is synthesized on this device with MBROLA (diphone synthesis, AGPL-3.0) and the US English diphone voices from Faculté Polytechnique de Mons (free for non-commercial use). Pronunciations come from the CMU Pronouncing Dictionary. Each note is sung at its exact pitch and duration from the score; nothing is AI-generated.</p>
+            </div>
+          )}
+        </aside>
+      </div>
 
       <nav className="transport" aria-label="Playback">
         <button className="tbtn" onClick={replay} aria-label={loop.on ? 'Replay loop from start' : 'Replay from the beginning'} disabled={!stems}><IconReplay /></button>
         <button className="tbtn play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'} disabled={!stems}>{playing ? <IconPause /> : <IconPlay />}</button>
         <button className="tbtn" onClick={stop} aria-label="Stop" disabled={!stems}><IconStop /></button>
         <button className={`tbtn${loop.on ? ' on' : ''}`} onClick={() => setLoop((l) => ({ ...l, on: !l.on }))} aria-pressed={loop.on} aria-label="Loop selected measures" disabled={!stems}><IconLoop /></button>
+        <button className={`tbtn gear${drawer ? ' on' : ''}`} onClick={() => setDrawer((d) => !d)} aria-expanded={drawer} aria-label="Settings"><IconSliders /></button>
       </nav>
-
-      {note && <p className="note" role="status">{note}</p>}
-
-      <div className="grid">
-        <section className="card" aria-labelledby="h-practice">
-          <h2 id="h-practice">Practice</h2>
-          <div className="field">
-            <label htmlFor="tempo">Tempo <span className="mono">{tempoDraft}%</span>{qpm ? <span className="muted"> · ♩ = {Math.round((qpm * tempoDraft) / prefs.tempoPct)}</span> : null}</label>
-            <input id="tempo" type="range" min={40} max={125} step={5} value={tempoDraft}
-              onChange={(e) => setTempoDraft(+e.target.value)}
-              onPointerUp={(e) => applyTempo(+(e.target as HTMLInputElement).value)}
-              onKeyUp={(e) => applyTempo(+(e.target as HTMLInputElement).value)}
-              onTouchEnd={(e) => applyTempo(+(e.target as HTMLInputElement).value)} />
-            <div className="row">
-              {[50, 75, 90, 100].map((v) => <button key={v} className={`mini${prefs.tempoPct === v ? ' on' : ''}`} onClick={() => applyTempo(v)}>{v}%</button>)}
-            </div>
-            <p className="hint">Slower tempos are re-sung at that speed, so the pitch never changes.</p>
-          </div>
-          <div className="field">
-            <span className="label">Loop measures</span>
-            <div className="row">
-              <input id="loop-from" className="num" inputMode="numeric" aria-label="Loop from measure" value={loop.from} onChange={(e) => setLoop((l) => ({ ...l, from: e.target.value }))} />
-              <span>to</span>
-              <input id="loop-to" className="num" inputMode="numeric" aria-label="Loop to measure" value={loop.to} onChange={(e) => setLoop((l) => ({ ...l, to: e.target.value }))} />
-              <button className={`btn${loop.on ? ' on' : ''}`} onClick={() => setLoop((l) => ({ ...l, on: !l.on }))}>{loop.on ? 'Looping' : 'Loop'}</button>
-              {phrases[pi] && <button className="btn ghost" onClick={() => loopPhrase(phrases[pi])}>This phrase</button>}
-            </div>
-          </div>
-          <form className="field" onSubmit={(e) => { e.preventDefault(); goMeasure(jump); }}>
-            <label htmlFor="jump">Go to measure</label>
-            <div className="row">
-              <input id="jump" className="num" inputMode="numeric" placeholder={`1–${lastMeasure}`} value={jump} onChange={(e) => setJump(e.target.value)} />
-              <button className="btn" type="submit">Go</button>
-            </div>
-          </form>
-        </section>
-
-        <section className="card" aria-labelledby="h-mix">
-          <h2 id="h-mix">Sound</h2>
-          <div className="field">
-            <label htmlFor="g-voice">Singing voice <span className="mono">{Math.round(prefs.gains.voice * 100)}%</span></label>
-            <input id="g-voice" type="range" min={0} max={1.5} step={0.05} value={prefs.gains.voice} onChange={(e) => upd({ gains: { ...prefs.gains, voice: +e.target.value } })} />
-          </div>
-          <div className="field">
-            <label htmlFor="g-guide">Piano doubling your notes <span className="mono">{Math.round(prefs.gains.guide * 100)}%</span></label>
-            <input id="g-guide" type="range" min={0} max={1} step={0.05} value={prefs.gains.guide} onChange={(e) => upd({ gains: { ...prefs.gains, guide: +e.target.value } })} />
-          </div>
-          <div className="field">
-            <label htmlFor="accomp">Accompaniment</label>
-            <div className="row">
-              <select id="accomp" value={prefs.accomp} onChange={(e) => upd({ accomp: e.target.value as AccompMode })}>
-                <option value="off">Off</option>
-                <option value="choir">Other choir parts (organ)</option>
-                <option value="full">Full score (choir + orchestra)</option>
-              </select>
-            </div>
-            {prefs.accomp !== 'off' && (
-              <>
-                <label htmlFor="g-acc" className="sub">Accompaniment volume <span className="mono">{Math.round(prefs.gains.accomp * 100)}%</span></label>
-                <input id="g-acc" type="range" min={0} max={1} step={0.05} value={prefs.gains.accomp} onChange={(e) => upd({ gains: { ...prefs.gains, accomp: +e.target.value } })} />
-              </>
-            )}
-          </div>
-          <div className="field">
-            <label htmlFor="voice">Synthetic singer</label>
-            <select id="voice" value={prefs.voice} onChange={(e) => upd({ voice: e.target.value })}>
-              {Object.entries(VOICES).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
-            </select>
-            <div className="row wrap">
-              <label className="check"><input id="vib" type="checkbox" checked={prefs.vibrato} onChange={(e) => upd({ vibrato: e.target.checked })} /> Gentle vibrato</label>
-              <label className="check">Octave
-                <select id="oct" aria-label="Octave shift" value={prefs.octave} onChange={(e) => upd({ octave: +e.target.value })}>
-                  <option value={-1}>−1</option><option value={0}>as written</option><option value={1}>+1</option>
-                </select>
-              </label>
-            </div>
-          </div>
-          <div className="field">
-            <span className="label">Save audio {loop.on ? `(measures ${loop.from}–${loop.to})` : '(whole piece)'}</span>
-            <div className="row">
-              <button className="btn" onClick={() => download('mp3')} disabled={!stems}><IconDownload /> MP3</button>
-              <button className="btn ghost" onClick={() => download('wav')} disabled={!stems}><IconDownload /> WAV</button>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <section className="card wide" aria-label="Lyrics, review and source">
-        <div className="tabs" role="tablist">
-          <button role="tab" aria-selected={panel === 'lyrics'} className={panel === 'lyrics' ? 'on' : ''} onClick={() => setPanel('lyrics')}>Lyrics</button>
-          <button role="tab" aria-selected={panel === 'review'} className={panel === 'review' ? 'on' : ''} onClick={() => setPanel('review')}>Check &amp; correct</button>
-          <button role="tab" aria-selected={panel === 'about'} className={panel === 'about' ? 'on' : ''} onClick={() => setPanel('about')}>Score &amp; source</button>
-        </div>
-        {panel === 'lyrics' && <LyricList phrases={phrases} pi={pi} cur={sounding ? cur : -1} onPick={pickPhrase} onLoop={loopPhrase} />}
-        {panel === 'review' && render && (
-          <Review key={corrKey} syllables={render.syllables} warnings={render.warnings} corrections={corr}
-            onChange={(c) => { setCorr(c); void putCorrections(corrKey, c); }}
-            onJump={(mi) => goMeasure(song!.score.measures[mi - 1].number)} />
-        )}
-        {panel === 'about' && song && (
-          <div className="about">
-            <dl>
-              <dt>Title</dt><dd>{song.score.title}</dd>
-              <dt>Parts</dt><dd>{song.score.parts.map((p) => p.name).join(', ')}</dd>
-              <dt>Measures</dt><dd>{song.score.measures.length}</dd>
-              {line && <><dt>Your line</dt><dd>{line.label}: {line.noteCount} notes, {line.lyricCount} lyric syllables, range {noteName(line.range[0])}–{noteName(line.range[1])}</dd></>}
-              {song.entry.source && <><dt>Source</dt><dd>{song.entry.source}</dd></>}
-              {song.entry.license && <><dt>License</dt><dd>{song.entry.license}</dd></>}
-            </dl>
-            {song.entry.user && <button className="btn ghost" onClick={removeSong}>Remove this imported score</button>}
-          </div>
-        )}
-      </section>
-
-      <section className="card wide" aria-labelledby="h-sheet">
-        <div className="row between">
-          <h2 id="h-sheet">Sheet music</h2>
-          <label className="check"><input id="sheet" type="checkbox" checked={prefs.showSheet} onChange={(e) => upd({ showSheet: e.target.checked })} /> Show</label>
-        </div>
-        {prefs.showSheet && song && line && (
-          <SheetView xml={song.xml} score={song.score} partIndex={song.score.parts.find((p) => p.id === line.line.partId)?.index ?? 0} pos={pos} />
-        )}
-      </section>
-
-      <section className="card wide" aria-labelledby="h-import">
-        <h2 id="h-import">Add a score</h2>
-        <p>Import a MusicXML file (<code>.musicxml</code>, <code>.xml</code> or <code>.mxl</code>) exported from MuseScore, Finale, Sibelius or Dorico, or produced by a scanning app from a photo or PDF. It stays on this device. Afterwards, check the lyrics and pronunciation in “Check &amp; correct”.</p>
-        <label className="btn file">
-          <IconUpload /> Choose MusicXML file
-          <input id="import" type="file" accept=".musicxml,.xml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" onChange={(e) => { const f = e.target.files?.[0]; if (f) void importFile(f); e.target.value = ''; }} />
-        </label>
-      </section>
-
-      <footer className="foot">
-        <p>Singing is synthesized on this device with MBROLA (diphone synthesis, AGPL-3.0) and the US English diphone voices from Faculté Polytechnique de Mons (free for non-commercial use). Pronunciations come from the CMU Pronouncing Dictionary. Each note is sung at its exact pitch and duration from the score; nothing is AI-generated.</p>
-      </footer>
     </div>
   );
 }

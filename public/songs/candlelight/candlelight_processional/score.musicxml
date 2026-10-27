@@ -8,7 +8,7 @@
   <identification>
     <creator type="composer">Disneyland Candlelight (Vocal edition, REV 09/1/23)</creator>
     <encoding>
-      <encoding-date>2026-10-24</encoding-date>
+      <encoding-date>2026-10-27</encoding-date>
       <software>music21 v.10.5.1</software>
       <supports element="beam" type="yes" />
       <supports element="stem" type="yes" />
@@ -22,33 +22,33 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P490d6f0d84bad43a430941811cb86418">
+    <score-part id="P0fd9258f06a75672ceea58d613c2e184">
       <part-name>Soprano (women, unison melody)</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="Ia8be79774d8d44030d50b6b328052a21">
+      <score-instrument id="I8d71041a9588bc1babd88d2341d7e1e2">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ia8be79774d8d44030d50b6b328052a21">
+      <midi-instrument id="I8d71041a9588bc1babd88d2341d7e1e2">
         <midi-channel>1</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P7581f89dc51bcd35221f8d529fbc35ba">
+    <score-part id="Pecf50de1cbb2c5bfc5a28a8c71efe581">
       <part-name>Bass</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="Ic29c4e41a3f510abe72a84bb8fef4ece">
+      <score-instrument id="I00d221bfd43de1fb198f1e78c0778261">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ic29c4e41a3f510abe72a84bb8fef4ece">
+      <midi-instrument id="I00d221bfd43de1fb198f1e78c0778261">
         <midi-channel>2</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P490d6f0d84bad43a430941811cb86418">
+  <part id="P0fd9258f06a75672ceea58d613c2e184">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0p">
       <attributes>
@@ -7779,7 +7779,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="P7581f89dc51bcd35221f8d529fbc35ba">
+  <part id="Pecf50de1cbb2c5bfc5a28a8c71efe581">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0p">
       <attributes>

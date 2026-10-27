@@ -213,7 +213,7 @@ describe('Hallelujah, bass part (full pipeline, WebAssembly MBROLA)', () => {
     expect(score.measures).toHaveLength(94);
     const lines = singableLines(score);
     expect(['S', 'A', 'T', 'B'].every((r) => findRole(lines, r as never))).toBe(true);
-    expect(findRole(lines, 'B')!.noteCount).toBe(409);
+    expect(findRole(lines, 'B')!.noteCount).toBe(410); // 409 in the source edition + the written-out trill in m.43 (the choir's edition)
   });
   it('renders non-silent audio aligned with the score', () => {
     const r = render();
