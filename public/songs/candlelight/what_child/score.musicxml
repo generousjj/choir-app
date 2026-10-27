@@ -22,57 +22,57 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P6048fc8bdd5a09fcc8ff1da897e5a8a6">
+    <score-part id="P13483b3e9d9997a8edcfba22adabef4d">
       <part-name>Soprano</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="Id3fe34562b2c02a6e1b25def5b87aca5">
+      <score-instrument id="I1f7fef3c02e415e79fabdaf52b7e0e91">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Id3fe34562b2c02a6e1b25def5b87aca5">
+      <midi-instrument id="I1f7fef3c02e415e79fabdaf52b7e0e91">
         <midi-channel>1</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="Pbdfc19daa20ecee8a4bb70a43296e233">
+    <score-part id="Pb65acb7c1db73a27451b36d6f82f17ef">
       <part-name>Alto</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="I1e2f2f6c18c443b8c1db35a8d07e500d">
+      <score-instrument id="Ic3be82d52b5fbeb2ca498672910809c5">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I1e2f2f6c18c443b8c1db35a8d07e500d">
+      <midi-instrument id="Ic3be82d52b5fbeb2ca498672910809c5">
         <midi-channel>2</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="Pb3bc2f57de1ff84e1c0369b89071caa6">
+    <score-part id="Pcdff11bfa51985c64838784c76a50b08">
       <part-name>Tenor</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="I9c9cc35332ea2440bf192b23fa4f182d">
+      <score-instrument id="I1ced6fb290457a624cb739e3c20ee8ed">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I9c9cc35332ea2440bf192b23fa4f182d">
+      <midi-instrument id="I1ced6fb290457a624cb739e3c20ee8ed">
         <midi-channel>3</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P3727714f3eca3363afebf4cd0344d8b4">
+    <score-part id="P869ab4b3f8a017f1e5666544bcdc4745">
       <part-name>Bass</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="I442fbfd4ed3ac29926a761cd15436998">
+      <score-instrument id="I2560dd086319d1f9c5f935f7beb8a788">
         <instrument-name>Voice</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I442fbfd4ed3ac29926a761cd15436998">
+      <midi-instrument id="I2560dd086319d1f9c5f935f7beb8a788">
         <midi-channel>4</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P6048fc8bdd5a09fcc8ff1da897e5a8a6">
+  <part id="P13483b3e9d9997a8edcfba22adabef4d">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -1724,7 +1724,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Pbdfc19daa20ecee8a4bb70a43296e233">
+  <part id="Pb65acb7c1db73a27451b36d6f82f17ef">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -3190,7 +3190,7 @@
     </measure>
   </part>
   <!--=========================== Part 3 ===========================-->
-  <part id="Pb3bc2f57de1ff84e1c0369b89071caa6">
+  <part id="Pcdff11bfa51985c64838784c76a50b08">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -4624,7 +4624,7 @@
     </measure>
   </part>
   <!--=========================== Part 4 ===========================-->
-  <part id="P3727714f3eca3363afebf4cd0344d8b4">
+  <part id="P869ab4b3f8a017f1e5666544bcdc4745">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>

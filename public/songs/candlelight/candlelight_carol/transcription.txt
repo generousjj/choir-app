@@ -29,21 +29,21 @@ spelling: page
 19: r/2.
 20: r/2.
 # Refrain (verse 1, unaccompanied): Bass 1 staff (Bass 2 staff crossed out in pencil)
-21: Cb4/4.:Can- Bb3/8:-dle- Ab3/4:light,
-22: Bb3/4.:an- Ab3/8:-gel Gb3/4:light,
-23: Cb4/4:fire- Cb4/8:-light Bb3/8 Ab3/4:and
-24: Db4/4:star- Bb3/2:-glow
-25: Cb4/4:Shine Cb4/4:on Cb4/4:his
-26: Bb3/4:cra- Bb3/4:-dle Bb3/4:till
-27: Bb3/8:break- Ab3/8 Gb3/4:-ing Ab3/4:of
-28: Ab3/4:dawn. Db4/2
-29: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
-30: Db4/2.:-a
-31: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
-32: Cb4/4.:De- Ab3/8 Bb3/4:-o!
-33: Gb3/4:An- Cb4/8:-gels Bb3/8 Ab3/4:are
-34: Bb3/4:sing- Bb3/4:-ing; Gb3/4:the
-35: Gb3/4~:child Gb3/4 F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
+21: Gb3+Cb4/4.:Can- Gb3+Bb3/8:-dle- Gb3+Ab3/4:light,
+22: Gb3+Bb3/4.:an- Gb3+Ab3/8:-gel Gb3/4:light,
+23: Gb3+Cb4/4:fire- Gb3+Cb4/8:-light Gb3+Bb3/8 Gb3+Ab3/4:and
+24: Gb3+Db4/4:star- Bb3/2:-glow
+25: Bb3+Cb4/4:Shine Bb3+Cb4/4:on Ab3+Cb4/4:his
+26: Bb3/4:cra- Bb3/4:-dle Bb2+Bb3/4:till
+27: Eb3+Bb3/8:break- Eb3+Ab3/8 Eb3+Gb3/4:-ing Ab3/4:of
+28: Db3+Ab3/4:dawn. Db3+Db4/2
+29: Db4/4:Glo- Cb4+Eb4/4 Cb4+Eb4/4:-ri-
+30: Cb4+Db4/2.:-a
+31: Bb3+Cb4/4.:in Ab3+Cb4/8:ex- Ab3+Cb4/8:-cel- Ab3+Cb4/8:-sis
+32: Gb3+Cb4/4.:De- Gb3+Ab3/8 Gb3+Bb3/4:-o!
+33: Cb3+Gb3/4:An- Cb3+Cb4/8:-gels Cb3+Bb3/8 Cb3+Ab3/4:are
+34: Db3+Bb3/4:sing- Db3+Bb3/4:-ing; Db3+Gb3/4:the
+35: Db3+Gb3/4~:child Db3+Gb3/4 Db3+F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
 # 1st ending (T.B. staff, bass divides on one stem)
 36: Gb2+Db3/2.:born.
 37: r/2.
@@ -68,21 +68,21 @@ spelling: page
 55: Bb3/4:sing Db3/4.:him Ab3/8:to
 56: Gb3/2.:sleep.
 # Refrain (verse 2, accompanied): Bass 1
-57: Cb4/4.:Can- Bb3/8:-dle- Ab3/4:light,
-58: Bb3/4.:an- Ab3/8:-gel Gb3/4:light,
-59: Cb4/4:fire- Cb4/8:-light Bb3/8 Ab3/4:and
-60: Db4/4:star- Bb3/2:-glow
-61: Cb4/4:Shine Cb4/4:on Cb4/4:his
-62: Bb3/4:cra- Bb3/4:-dle Bb3/4:till
-63: Bb3/8:break- Ab3/8 Gb3/4:-ing Ab3/4:of
-64: Ab3/4:dawn. Db4/2
-65: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
-66: Db4/2.:-a
-67: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
-68: Cb4/4.:De- Ab3/8 Bb3/4:-o!
-69: Gb3/4:An- Cb4/8:-gels Bb3/8 Ab3/4:are
-70: Bb3/4:sing- Bb3/4:-ing; Gb3/4:the
-71: Gb3/4~:child Gb3/4 F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
+57: Gb3+Cb4/4.:Can- Gb3+Bb3/8:-dle- Gb3+Ab3/4:light,
+58: Gb3+Bb3/4.:an- Gb3+Ab3/8:-gel Gb3/4:light,
+59: Gb3+Cb4/4:fire- Gb3+Cb4/8:-light Gb3+Bb3/8 Gb3+Ab3/4:and
+60: Gb3+Db4/4:star- Bb3/2:-glow
+61: Bb3+Cb4/4:Shine Bb3+Cb4/4:on Ab3+Cb4/4:his
+62: Bb3/4:cra- Bb3/4:-dle Bb2+Bb3/4:till
+63: Eb3+Bb3/8:break- Eb3+Ab3/8 Eb3+Gb3/4:-ing Ab3/4:of
+64: Db3+Ab3/4:dawn. Db3+Db4/2
+65: Db4/4:Glo- Cb4+Eb4/4 Cb4+Eb4/4:-ri-
+66: Cb4+Db4/2.:-a
+67: Bb3+Cb4/4.:in Ab3+Cb4/8:ex- Ab3+Cb4/8:-cel- Ab3+Cb4/8:-sis
+68: Gb3+Cb4/4.:De- Gb3+Ab3/8 Gb3+Bb3/4:-o!
+69: Cb3+Gb3/4:An- Cb3+Cb4/8:-gels Cb3+Bb3/8 Cb3+Ab3/4:are
+70: Db3+Bb3/4:sing- Db3+Bb3/4:-ing; Db3+Gb3/4:the
+71: Db3+Gb3/4~:child Db3+Gb3/4 Db3+F3/4:is   # sung "the child___ is born" (choir's adaptation; printed "the Christ child is born")
 # 2nd ending
 72: Gb2+Db3/2.:born.
 # Verse 3 (SATB, T.B. share a staff: bass = stems down)
@@ -102,8 +102,8 @@ spelling: page
 86: Ab3/4:-va- Ab3/4:-tion: Gb3/4
 # A.T.B. Hum (soprano sings "A child with his mother that first Christmas Day")
 87: Fb3/2.:Oo   # printed "Hum"; the choir sings "oo"
-88: Eb3/2 Gb3/4~   # lower divisi note Ab2 crossed out in pencil
-89: Gb3/2 F3/4     # lower divisi note crossed out in pencil
+88: Eb3/2 Ab2+Gb3/4   # lower divisi note Ab2 crossed out in pencil
+89: Db3+Gb3/2 Db3+F3/4     # lower divisi note crossed out in pencil
 90: Gb2+Db3/2.
 # [E] men unis., melody
 91: Cb4/8:Can- Db4/8:-dle- Eb4/2:light,
@@ -115,13 +115,13 @@ spelling: page
 97: Gb3/4:break- Bb3/4:-ing Cn4/4:of
 98: Db4/2.:dawn.
 # Final Gloria: Bass 1 staff (Bass 2 crossed out)
-99: Db4/4:Glo- Eb4/4 Eb4/4:-ri-
-100: Db4/2.:-a
-101: Cb4/4.:in Cb4/8:ex- Cb4/8:-cel- Cb4/8:-sis
-102: Cb4/4.:De- Ab3/8 Bb3/4:-o!
-103: Gb3/4:Oo Cb4/8 Bb3/8 Ab3/4   # printed "Hum"; the choir sings "oo"
-104: Bb3/2 Gb3/4
-105: Gb3/2 F3/4
+99: Db4/4:Glo- Cb4+Eb4/4 Cb4+Eb4/4:-ri-
+100: Cb4+Db4/2.:-a
+101: Bb3+Cb4/4.:in Ab3+Cb4/8:ex- Ab3+Cb4/8:-cel- Ab3+Cb4/8:-sis
+102: Gb3+Cb4/4.:De- Gb3+Ab3/8 Gb3+Bb3/4:-o!
+103: Cb3+Gb3/4:Oo Cb3+Cb4/8 Cb3+Bb3/8 Cb3+Ab3/4   # printed "Hum"; the choir sings "oo"
+104: Db3+Bb3/2 Db3+Gb3/4
+105: Db3+Gb3/2 Db3+F3/4
 text: rall.
-106: Db3/2.~
-107: Db3/2.!
+106: Gb2+Db3/2.~
+107: Gb2+Db3/2.!
