@@ -272,6 +272,14 @@ export function App() {
     setTime(player.current.time);
     if (render) lastQ.current = Math.max(0, render.tempo.q(t - render.leadIn));
   };
+  /** jump to a musical position (quarters from the start), just before the note */
+  const seekQ = (q: number) => {
+    if (!render) return;
+    const t = Math.max(0, render.tempo.sec(q) + render.leadIn - 0.15);
+    if (loop.on && clipRange && (t < clipRange.a || t > clipRange.b)) setLoop((l) => ({ ...l, on: false }));
+    lastQ.current = Math.max(0, render.tempo.q(t - render.leadIn));
+    seekSong(t);
+  };
   const goMeasure = (num: string) => {
     if (!render) return;
     const m = render.measures.find((x) => x.number === num.trim());
@@ -369,7 +377,8 @@ export function App() {
             </div>
             {prefs.view === 'words' && <Stage phrases={phrases} pi={pi} cur={sounding ? cur : -1} />}
             {prefs.view === 'music' && song && line && (
-              <SheetView xml={song.xml} score={song.score} partIndex={song.score.parts.find((p) => p.id === line.line.partId)?.index ?? 0} pos={pos} />
+              <SheetView xml={song.xml} score={song.score} partIndex={song.score.parts.find((p) => p.id === line.line.partId)?.index ?? 0} pos={pos}
+                onSeek={(mi, offQ) => seekQ(song.score.measures[mi - 1].startQ + offQ)} />
             )}
             {prefs.view === 'hidden' && (
               <div className="testme">

@@ -10,12 +10,13 @@ interface Props {
   partIndex: number;
   /** current position: unrolled measure index (1-based) and quarter offset in it */
   pos: { measureIndex: number; offQ: number } | null;
-  onSeekMeasure?: (measureIndex: number) => void;
+  /** a note or lyric was tapped: unrolled measure index (1-based) and quarter offset in it */
+  onSeek?: (measureIndex: number, offQ: number) => void;
 }
 
 interface Step { mi: number; off: number }
 
-export function SheetView({ xml, score, partIndex, pos }: Props) {
+export function SheetView({ xml, score, partIndex, pos, onSeek }: Props) {
   const host = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const osmdRef = useRef<OpenSheetMusicDisplay | null>(null);
@@ -23,13 +24,15 @@ export function SheetView({ xml, score, partIndex, pos }: Props) {
   const cur = useRef(0);
   const [state, setState] = useState<'loading' | 'ready' | 'error'>('loading');
   const [err, setErr] = useState('');
+  const lib = useRef<typeof import('opensheetmusicdisplay') | null>(null);
 
   useEffect(() => {
     let cancelled = false;
     setState('loading');
     (async () => {
       try {
-        const { OpenSheetMusicDisplay } = await import('opensheetmusicdisplay');
+        lib.current = await import('opensheetmusicdisplay');
+        const { OpenSheetMusicDisplay } = lib.current;
         if (cancelled || !host.current) return;
         host.current.innerHTML = '';
         const osmd = new OpenSheetMusicDisplay(host.current, {
@@ -93,8 +96,28 @@ export function SheetView({ xml, score, partIndex, pos }: Props) {
     }
   }, [pos?.measureIndex, pos?.offQ, state, score]);
 
+  // tap a note or lyric: find the nearest note of the drawn part, then the performance
+  // occurrence of that written measure closest to where you are now (repeats repeat it)
+  const onClick = (e: React.MouseEvent) => {
+    const osmd = osmdRef.current;
+    const svg = host.current?.querySelector('svg');
+    if (state !== 'ready' || !osmd || !svg || !lib.current || !onSeek) return;
+    const r = svg.getBoundingClientRect();
+    const unit = 10 * osmd.Zoom;
+    const se = osmd.GraphicSheet.GetNearestStaffEntry(new lib.current.PointF2D((e.clientX - r.left) / unit, (e.clientY - r.top) / unit));
+    if (!se) return;
+    const src = se.parentMeasure.parentSourceMeasure.measureListIndex;
+    const off = se.sourceStaffEntry.Timestamp.RealValue * 4;
+    const here = pos?.measureIndex ?? 1;
+    let best = -1;
+    score.measures.forEach((m, i) => {
+      if (m.srcIndex === src && (best < 0 || Math.abs(i + 1 - here) < Math.abs(best + 1 - here))) best = i;
+    });
+    if (best >= 0) onSeek(best + 1, off);
+  };
+
   return (
-    <div className="sheet" ref={scroller}>
+    <div className="sheet" ref={scroller} onClick={onClick} title="Tap a note to play from there">
       {state === 'loading' && <p className="muted">Engraving your part…</p>}
       {state === 'error' && <p className="error">Sheet music could not be drawn: {err}</p>}
       <div ref={host} className="sheet-host" />
